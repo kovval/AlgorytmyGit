@@ -18,6 +18,8 @@ public class AlgorithmFactory {
                 return new SumaLiczbWejsciowych();
             case "rokprzestepny":
                 return new RokPrzestepny();
+            case "szyfrcezar":
+                return new SzyfrCezar();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
