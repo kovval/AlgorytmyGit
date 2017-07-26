@@ -26,6 +26,10 @@ public class AlgorithmFactory {
                 return new SzyfrCezara();
             case "wyznaczaniecyfrsilni":
                 return new WyznaczanieCyfrSilni();
+            case "porownanieliczb":
+                return new porownanieLiczb();
+            case "sortowaniewzglendemodleglosci":
+                return new  SortowanieWzglendemOdleglosci();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
