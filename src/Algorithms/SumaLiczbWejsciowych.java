@@ -16,7 +16,7 @@ public class SumaLiczbWejsciowych extends AbstractAlgorithm {
             suma = suma + Integer.parseInt(input[i]);
             //dodajemy i jednocześnie parsujemy (zamieniamy ze stringów na inty)
             // kolejne wartości z tablicy wejściowej
-            System.out.println(suma+" ");
+            System.out.println(suma);
         }
     }
 }

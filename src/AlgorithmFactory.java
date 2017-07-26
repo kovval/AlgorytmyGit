@@ -18,8 +18,18 @@ public class AlgorithmFactory {
                 return new SumaLiczbWejsciowych();
             case "rokprzestepny":
                 return new RokPrzestepny();
-            case "szyfrcezar":
-                return new SzyfrCezar();
+            case "silnia":
+                return new Silnia();
+            case "fibonacci":
+                return new Fibonacci();
+            case "szyfrcezara":
+                return new SzyfrCezara();
+            case "wyznaczaniecyfrsilni":
+                return new WyznaczanieCyfrSilni();
+            case "porownanieliczb":
+                return new porownanieLiczb();
+            case "sortowaniewzglendemodleglosci":
+                return new  SortowanieWzglendemOdleglosci();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
