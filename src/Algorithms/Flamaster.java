@@ -10,6 +10,7 @@ public class Flamaster extends AbstractAlgorithm {
     }
 
     @Override
+
     public String runAlgorithm(String[] input) {
 
         for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) {
@@ -17,13 +18,13 @@ public class Flamaster extends AbstractAlgorithm {
 StringBuilder shorWord = new StringBuilder();
 
             for (int i = 0; i < word.length() - 1; i++) {//pętla [0]...[n-1] po długosci slowa
-                char c = word.charAt(i);//znak char na tablicy stringa
-                shorWord.append(c);//metoda string builder dodaje c
+                char character = word.charAt(i);//znak char na tablicy stringa
+                shorWord.append(character);//metoda string builder dodaje character
                 int count = 1; // zliczanie powtorzeń
-                if (i == word.length() - 1) { // warunek kończący
+                if (i == word.length() - 1) { // warunek kończący gdy będize tylko jeden znak
                     break;
                 }
-                while (c == word.charAt(i + 1)) { // warunek powtórzeń znaku
+                while (character == word.charAt(i + 1)) { // warunek powtórzeń znaku
                     count++;
                     i++;
                     if (i == word.length() - 1) {
@@ -31,11 +32,11 @@ StringBuilder shorWord = new StringBuilder();
                     }
                 }
                 if (count == 2) {//warunek kolejnych powtórzeń
-                    shorWord.append(c); // dodanie chara
-                } else if (count > 2) { // jeżeli więcej niż 2 dodanie liczby powtórzeń
+                    shorWord.append(character); // dodanie chara
+                } else if (count > 2) { // jeżeli więcej niż 2 dodtanie liczby powtórzeń
                     shorWord.append(count);
                 }
-                if(i==word.length()-2){//jeżeli przedostatni znak = i
+                if(i==word.length()-2){//jeżeli przedostatni znak = i bez tego nie skończy
                     shorWord.append(word.charAt(i+1));
                 }
             }
