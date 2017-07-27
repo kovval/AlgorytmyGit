@@ -37,6 +37,7 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
             tablicaWynikow[i][1] = round;
         }
 
+
 //        for (int i = 0; i < n; i++) {
 //            for (int j = 0; j < n - 1; j++) {
 
@@ -69,11 +70,12 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
                         }
                     }
 
-                    for( i=0; i < n; i++){
+                    for (i = 0; i < n; i++) {
                         int punkt = tablicaWynikow[i][0];
-                        for(int j=0; j < n; j++) {
-                            System.out.printf("punkt: %d; X: %d; Y: %d\n",
-                                    punkt, tablicaPuntkow[j][1], tablicaPuntkow[j][2] );
+                        for (int j = 0; j < n; j++) {
+                            if (punkt == tablicaPuntkow[j][0])
+                                System.out.printf("punkt: %d; X: %d; Y: %d\n",
+                                        punkt, tablicaPuntkow[j][1], tablicaPuntkow[j][2]);
                         }
                     }
 
@@ -83,11 +85,13 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
 //                            System.out.printf("[%d] \n", tablicaWynikow[i][j]);
 //
 //                        }
+                }
 //                    }
                 }
             }
 
 
-        }
+
+
 
 
