@@ -39,10 +39,11 @@ StringBuilder shorWord = new StringBuilder();
                     shorWord.append(word.charAt(i+1));
                 }
             }
-            return shorWord.toString();
-        }
+            System.out.printf("%s ", shorWord);
 
-        return null;
+        }
+return input.toString();
+
     }
     }
 
