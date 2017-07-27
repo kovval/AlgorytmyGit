@@ -42,6 +42,7 @@ StringBuilder shorWord = new StringBuilder();
             System.out.printf("%s ", shorWord);
 
         }
+
 return input.toString();
 
     }

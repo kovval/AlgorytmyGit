@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Palindrom2 {
-    private Palindrom2(int n) {
+public class Palindrom {
+    private Palindrom(int n) {
         this.n = n;
 
     }
@@ -53,7 +53,7 @@ public class Palindrom2 {
 
     public static void main(String[] args) {
 
-        List<Palindrom2> lista = new ArrayList<>();
+        List<Palindrom> lista = new ArrayList<>();
         System.out.println("enter a number of Palindroms: ");
         Scanner scanner = new Scanner(System.in);
 
@@ -61,10 +61,10 @@ public class Palindrom2 {
         for (int i = 0; i < n ; i++) {
             System.out.printf("number: %d\n", i+1);
             int s = scanner.nextInt();
-            lista.add(new Palindrom2(s));
+            lista.add(new Palindrom(s));
         }
 
-        for (Palindrom2 p: lista) {
+        for (Palindrom p: lista) {
             p.makePalindrom();
         }
 //        lista.add(new Palindrom2(12));
