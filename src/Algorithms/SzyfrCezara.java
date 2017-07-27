@@ -15,7 +15,7 @@ public class SzyfrCezara extends AbstractAlgorithm {
                         "Y", "Z"}; //Tablica literek, która prezentuje nasz alfabet
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public String runAlgorithm(String[] input) {
         for (int words = 1; words < input.length; words++) //Przechodzimy po wszystkich wyrazach
         {
             String word = input[words].toUpperCase(); //Wyraz piszemy z wielkiej litery i zapisujemy do zmiennej
@@ -37,6 +37,7 @@ public class SzyfrCezara extends AbstractAlgorithm {
             }
             System.out.print(" "); //po każdym słowie drukujemy spacje
         }
+        return null;
     }
 
     private int getLetterPosition(String letter){

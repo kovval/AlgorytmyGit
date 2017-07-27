@@ -10,7 +10,7 @@ public class porownanieLiczb extends AbstractAlgorithm {
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public String runAlgorithm(String[] input) {
 
         int[] sortowanaTablica = new int[input.length - 1];
 
@@ -34,5 +34,6 @@ public class porownanieLiczb extends AbstractAlgorithm {
             System.out.printf("%d ", sortowanaTablica[i]);
         }
 
+        return null;
     }
 }

@@ -10,7 +10,7 @@ public class WyznaczanieCyfrSilni extends AbstractAlgorithm {
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public String runAlgorithm(String[] input) {
         int n = Integer.parseInt(input[1]);
 
         switch (n){
@@ -42,5 +42,6 @@ public class WyznaczanieCyfrSilni extends AbstractAlgorithm {
                 System.out.println("0 0");
                 break;
         }
+        return null;
     }
 }
