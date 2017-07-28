@@ -8,7 +8,7 @@ public class SumaLiczbWejsciowych extends AbstractAlgorithm {
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public String runAlgorithm(String[] input) {
         int suma = 0;
         for(int i = 1; i < input.length; i++){
             //Pętla wykonuje się od pierwszego elementu (element 0 to nazwa algorytmu)
@@ -18,5 +18,6 @@ public class SumaLiczbWejsciowych extends AbstractAlgorithm {
             // kolejne wartości z tablicy wejściowej
             System.out.println(suma);
         }
+        return null;
     }
 }

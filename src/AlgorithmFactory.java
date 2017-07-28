@@ -34,6 +34,10 @@ public class AlgorithmFactory {
                 return new SortowaniePrzezZliczanie();
             case "statki" :
                 return new Statki();
+            case "flamaster" :
+                return new Flamaster();
+            case "palindrom" :
+                return new Palindrom();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }

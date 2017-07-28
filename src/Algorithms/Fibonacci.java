@@ -10,9 +10,10 @@ public class Fibonacci extends AbstractAlgorithm {
     }
 
     @Override
-    public void runAlgorithm(String[] input) {
+    public String runAlgorithm(String[] input) {
         int n = Integer.parseInt(input[1]);
         System.out.println(Fib(n));
+        return null;
     }
     private int Fib(int n){
         if(n==0) //Jeżeli n wynosi 0 zwróć 0
