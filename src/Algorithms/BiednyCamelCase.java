@@ -12,6 +12,7 @@ public class BiednyCamelCase extends AbstractAlgorithm {
         int letters = 0; //Licznik zliczający wszystkie literki, aby można było określić czy wypisać z dużej czy z małej
         for(int wordsCounter = 1; wordsCounter<input.length; wordsCounter++)
             //For, który przechodzi po wszystkich słowach
+
             //Iteracje zaczynamy od 1, ponieważ w input[0] zapisana jest nazwa algorytmu
         {
             String word = input[wordsCounter]; //Zapisujemy do zmiennej word aktualnie przetwarzane słowo

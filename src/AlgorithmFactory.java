@@ -38,6 +38,12 @@ public class AlgorithmFactory {
                 return new Flamaster();
             case "palindrom" :
                 return new Palindrom();
+            case "nwd" :
+                    return new NWD();
+            case "warcaby" :
+                return new Warcaby();
+            case "tablice" :
+                return new Tablice();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
