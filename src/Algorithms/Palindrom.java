@@ -11,19 +11,21 @@ public class Palindrom extends AbstractAlgorithm {
 
     @Override
     public String runAlgorithm(String[] input) {
-        int number = Integer.parseInt(input[1]);
-        int sum = 0;
-        int rememberNumber = number;
-        int reps = 0;
 
-        while (number > 0) {
-            int reserve = number % 10;
-            sum = (sum * 10) + reserve;
-            number = number / 10;
-        }
-        if (rememberNumber == sum) {
-            System.out.printf("%d jest palindromem", rememberNumber);
-        } else {
+        for (int i = 1; i < input.length; i++) {
+            int number = Integer.parseInt(input[i]);
+            int sum = 0;
+            int rememberNumber = number;
+            int reps = 0;
+
+            while (number > 0) {
+                int reserve = number % 10;
+                sum = (sum * 10) + reserve;
+                number = number / 10;
+            }
+            if (rememberNumber == sum) {
+                System.out.printf("%d jest palindromem\n", rememberNumber);
+            } else {
                 while (rememberNumber != sum) {
                     rememberNumber = sum + rememberNumber;
                     sum = 0;
@@ -36,10 +38,13 @@ public class Palindrom extends AbstractAlgorithm {
                     }
                 }
 
-                        System.out.printf("%d jest palindromem po %d sumowaniu ", sum, reps);
-                    }
-        return null;
-                }
+                System.out.printf("%d jest palindromem po %d sumowaniu \n", sum, reps);
+            }
 
+        }
+        return null;
     }
+}
+
+
 
