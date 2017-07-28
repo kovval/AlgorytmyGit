@@ -44,6 +44,8 @@ public class AlgorithmFactory {
                 return new Warcaby();
             case "tablice" :
                 return new Tablice();
+            case "interpretacja" :
+                return new Interpretacja();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
