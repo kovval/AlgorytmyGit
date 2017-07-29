@@ -48,6 +48,8 @@ public class AlgorithmFactory {
                 return new Interpretacja();
             case "datadzien" :
                 return new DataDzien();
+            case "wielkanoc" :
+                return new Wielkanoc();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
