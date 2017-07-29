@@ -46,6 +46,8 @@ public class AlgorithmFactory {
                 return new Tablice();
             case "interpretacja" :
                 return new Interpretacja();
+            case "datadzien" :
+                return new DataDzien();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
