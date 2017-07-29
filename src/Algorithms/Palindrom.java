@@ -16,35 +16,33 @@ public class Palindrom extends AbstractAlgorithm {
             int number = Integer.parseInt(input[i]);
             int sum = 0;
             int rememberNumber = number;
+            int mark = number;
             int reps = 0;
 
-            while (number > 0) {
-                int reserve = number % 10;
-                sum = (sum * 10) + reserve;
-                number = number / 10;
-            }
-            if (rememberNumber == sum) {
-                System.out.printf("%d jest palindromem\n", rememberNumber);
-            } else {
-                while (rememberNumber != sum) {
-                    rememberNumber = sum + rememberNumber;
-                    sum = 0;
-                    number = rememberNumber;
-                    reps++;
-                    while (number > 0) {
-                        int reserve = number % 10;
-                        sum = (sum * 10) + reserve;
-                        number = number / 10;
-                    }
-                }
 
-                System.out.printf("%d jest palindromem po %d sumowaniu \n", sum, reps);
+            while (rememberNumber != sum) {
+                rememberNumber = sum + rememberNumber;
+                sum = 0;
+                number = rememberNumber;
+                reps++;
+                while (number > 0) {
+                    int reserve = number % 10;
+                    sum = (sum * 10) + reserve;
+                    number = number / 10;
+                }
             }
+            if (reps == 1) {
+                System.out.printf("\n%d jest palindromem bez sumowanie jej odwrotności", sum);
+            } else {
+                System.out.printf("\n%d jest palindromem po %d sumowaniu odwrotności w postaci liczby: %d ", mark, reps-1, sum );
+            }
+        }
+            return null;
 
         }
-        return null;
     }
-}
+
+
 
 
 
