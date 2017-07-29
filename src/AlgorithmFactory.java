@@ -26,8 +26,8 @@ public class AlgorithmFactory {
                 return new SzyfrCezara();
             case "wyznaczaniecyfrsilni":
                 return new WyznaczanieCyfrSilni();
-            case "porownanieliczb":
-                return new porownanieLiczb();
+            case "sortowaniebombelkowe":
+                return new sortowanieBabelkowe();
             case "sortowaniewzglendemodleglosci":
                 return new  SortowanieWzglendemOdleglosci();
             case "sortowanieprzezzliczanie":

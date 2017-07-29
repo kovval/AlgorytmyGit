@@ -29,25 +29,24 @@ public class DataDzien extends AbstractAlgorithm {
         int dzien = Integer.parseInt(input[1]);
 
         if (miesiac > 12) {
-            System.out.println("nie ma takiego miesiąca");
+            System.out.print("\nnie ma takiego miesiąca");
             return null;
         }
         if (dzien > 28 && miesiac == 2) {
-            System.out.println("nie ma takiego dnia");
+            System.out.print("\nnie ma takiego dnia");
         }
         if (dzien > 31 && (miesiac == 1 || miesiac == 3 || miesiac == 5 ||
         miesiac == 7 || miesiac == 8 || miesiac == 10 || miesiac == 12)) {
-            System.out.println("nie ma takiego dnia");
+            System.out.print("\nnie ma takiego dnia");
         return null;
     }
         if(dzien > 30 && (miesiac == 4 || miesiac == 6 || miesiac == 9 || miesiac == 11)) {
-            System.out.println("nie ma tekigo roku");
+            System.out.print("\nnie ma tekigo roku");
             return null;
         }
         if (rok%4 == 0 && rok%100 != 0 || rok%400 == 0 ) {// rok przestępny
             if (dzien > 29 && miesiac == 2 ) {
-                System.out.println("nie ma takiego dnia");
-
+                System.out.print("\nnie ma takiego dnia");
             }
         }
 
