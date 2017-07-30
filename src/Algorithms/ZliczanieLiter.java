@@ -31,8 +31,8 @@ public class ZliczanieLiter extends AbstractAlgorithm {
             Character przeliterowane = litery.charAt(i);
 
             if(liczenieLiter.containsKey(przeliterowane)) {
-                int occurences = liczenieLiter.get(przeliterowane);
-                liczenieLiter.put(przeliterowane, occurences+1);
+                int reps = liczenieLiter.get(przeliterowane);
+                liczenieLiter.put(przeliterowane, reps+1);
             } else {
                 liczenieLiter.put(przeliterowane, 1);
             }

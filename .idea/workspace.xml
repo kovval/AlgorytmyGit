@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a121a085-7c49-47e9-a30b-cb62234e8ff5" name="Default" comment="W ostatnim zadaniu można by jeszcze dorobić wiele warunków, ale troche mi się nei chce.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmFactory.java" afterPath="$PROJECT_DIR$/src/AlgorithmFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Flamaster.java" afterPath="$PROJECT_DIR$/src/Algorithms/Flamaster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" afterPath="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" />
     </list>
     <ignored path="Algorytmy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,8 +112,8 @@
       <file leaf-file-name="ZliczanieLiter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="351">
+              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding>
                 <element signature="e#190#191#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
@@ -952,6 +950,48 @@
           <properties />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Algorithms/NWD.java</url>
           <line>22</line>
@@ -959,7 +999,7 @@
           <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="147" />
+      <option name="time" value="154" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1328,8 +1368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="351">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
