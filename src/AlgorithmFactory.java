@@ -54,6 +54,8 @@ public class AlgorithmFactory {
                 return new Obzartuchy();
             case "nowadzialka" :
                 return new NowaDzialka();
+            case "zliczanieliter" :
+                return new ZliczanieLiter();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }

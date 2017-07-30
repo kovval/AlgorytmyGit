@@ -15,7 +15,7 @@ public class Flamaster extends AbstractAlgorithm {
 
         for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) {
             String word = input[wordsCounter];
-StringBuilder shorWord = new StringBuilder();
+            StringBuilder shorWord = new StringBuilder();
 
             for (int i = 0; i < word.length() - 1; i++) {//pętla [0]...[n-1] po długosci slowa
                 char character = word.charAt(i);//znak char na tablicy stringa
