@@ -50,6 +50,10 @@ public class AlgorithmFactory {
                 return new DataDzien();
             case "wielkanoc" :
                 return new Wielkanoc();
+            case "obzartuchy" :
+                return new Obzartuchy();
+            case "nowadzialka" :
+                return new NowaDzialka();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
