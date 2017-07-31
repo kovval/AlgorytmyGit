@@ -56,6 +56,14 @@ public class AlgorithmFactory {
                 return new NowaDzialka();
             case "zliczanieliter" :
                 return new ZliczanieLiter();
+            case "spacjecamelcase" :
+                return new SpacjeCamelCase();
+            case "odwrotnosccamelcase" :
+                return new OdwrotnoscCamelCase();
+            case "mrandom" :
+                return new mRandom();
+            case "szukanielidera" :
+                return new SzukanieLidera();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
