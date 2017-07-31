@@ -26,8 +26,8 @@ public class AlgorithmFactory {
                 return new SzyfrCezara();
             case "wyznaczaniecyfrsilni":
                 return new WyznaczanieCyfrSilni();
-            case "porownanieliczb":
-                return new porownanieLiczb();
+            case "sortowaniebombelkowe":
+                return new sortowanieBabelkowe();
             case "sortowaniewzglendemodleglosci":
                 return new  SortowanieWzglendemOdleglosci();
             case "sortowanieprzezzliczanie":
@@ -46,6 +46,16 @@ public class AlgorithmFactory {
                 return new Tablice();
             case "interpretacja" :
                 return new Interpretacja();
+            case "datadzien" :
+                return new DataDzien();
+            case "wielkanoc" :
+                return new Wielkanoc();
+            case "obzartuchy" :
+                return new Obzartuchy();
+            case "nowadzialka" :
+                return new NowaDzialka();
+            case "zliczanieliter" :
+                return new ZliczanieLiter();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }

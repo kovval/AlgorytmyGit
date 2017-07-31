@@ -6,7 +6,7 @@ package Algorithms;
 public class SortowaniePrzezZliczanie extends AbstractAlgorithm {
     @Override
     public String getName() {
-        return null;
+        return "sortowanie przez zliczanie";
     }
 
     @Override

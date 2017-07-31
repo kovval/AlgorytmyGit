@@ -3,7 +3,7 @@ package Algorithms;
 /**
  * Created by RENT on 2017-07-26.
  */
-public class porownanieLiczb extends AbstractAlgorithm {
+public class sortowanieBabelkowe extends AbstractAlgorithm {
     @Override
     public String getName() {
         return "Porównywanie liczb";
