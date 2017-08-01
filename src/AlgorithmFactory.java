@@ -62,8 +62,12 @@ public class AlgorithmFactory {
                 return new OdwrotnoscCamelCase();
             case "mrandom" :
                 return new mRandom();
-            case "szukanielidera" :
-                return new SzukanieLidera();
+//            case "szukanielidera" :
+//                return new SzukanieLidera();
+            case "testowanielisty" :
+                return new TestowanieListy();
+            case "listakolor":
+                return new ListaKolor();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }

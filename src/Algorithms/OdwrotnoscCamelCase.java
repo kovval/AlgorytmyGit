@@ -13,6 +13,10 @@ public class OdwrotnoscCamelCase extends AbstractAlgorithm {
             "I", "J", "K", "L", "M", "N", "O", "P",
             "Q", "R", "S", "T", "U", "W", "V", "X",
             "Y", "Z"};
+    private String _maleLitery[] = {"a", "b", "c", "d", "e", "f", "g", "h",
+            "i", "j", "k", "l", "m", "n", "o", "p",
+            "q", "r", "s", "t", "u", "w", "v", "x",
+            "y", "z"};
 
     @Override
     public String runAlgorithm(String[] input) {
@@ -20,28 +24,24 @@ public class OdwrotnoscCamelCase extends AbstractAlgorithm {
         for (int liczbaSlow = 1; liczbaSlow < input.length; liczbaSlow++) {
             String slowa = input[liczbaSlow];
             char[] literyWSlowie = slowa.toCharArray();
-//            for (int liczbaLitery = 0; liczbaLitery < literyWSlowie.length; liczbaLitery++) {
-//                if (literyWSlowieduzeLitery. )
-//                {
-//
-//
-//                } else {
-//                    System.out.print(Character.toString(literyWSlowie[liczbaLitery]));
-////                }
-            for (int i = 0; i < _duzeLitery.length; i++) {
-                for (int j = 0; j < slowa.length(); j++) {
-                    if (_duzeLitery[i].equals(String.valueOf(literyWSlowie[j]))) {
-                        System.out.print(" " + Character.toString(literyWSlowie[j]).toUpperCase());
+
+            for (int i = 0; i < slowa.length(); i++) {
+                for (int j = 0; j < _duzeLitery.length; j++) {
+                    if (_duzeLitery[j].equals(String.valueOf(literyWSlowie[i]))) {
+                        System.out.print(" " + Character.toString(literyWSlowie[i]).toUpperCase());
                     }
-//                    for (int k=1 ; k < liczbaSlow; k++) {
-//                        System.out.print(" " + Character.toString(literyWSlowie[j]).toUpperCase());
-//                    }
+                        if(_maleLitery[j].equals(String.valueOf(literyWSlowie[i]))) {
+                            System.out.print(Character.toString(literyWSlowie[i]));
+                    }
+                    }
+                    }
 
                 }
+        return null;
             }
 
         }
 
-        return null;
-    }
-}
+
+
+

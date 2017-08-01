@@ -1,0 +1,27 @@
+diff a/.idea/workspace.xml b/.idea/workspace.xml	(rejected hunks)
+@@ -44,13 +44,18 @@
+       <file leaf-file-name="AlgorithmFactory.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
+           <provider selected="true" editor-type-id="text-editor">
+-<<<<<<< HEAD
+-            <state relative-caret-position="969">
+-              <caret line="57" column="44" lean-forward="false" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+-=======
+-            <state relative-caret-position="305">
+-              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+->>>>>>> f48785083d367aa5baa67e6c84c275d796c79c5c
++            <state relative-caret-position="1105">
++              <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="SumowanieLiczbNaturalnych.java" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/Algorithms/SumowanieLiczbNaturalnych.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="374">
++              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
