@@ -1,5 +1,6 @@
 package Algorithms;
 
+import java.util.HashMap;
 import java.util.TreeMap;
 
 /**
@@ -41,6 +42,7 @@ public class ZliczanieLiter extends AbstractAlgorithm {
         System.out.println(liczenieLiter);
 
             return null;
+
         }
 
 }
