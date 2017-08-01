@@ -17,7 +17,7 @@ public class TestowanieListy extends AbstractAlgorithm {
     public String runAlgorithm(String[] input) {
         mList lista = new mList();
 
-        lista.addElementAtBeginning(14, lista);
+//        lista.addElementAtBeginning(14, lista);
         lista.addElementAtBeginning(25, lista);
         lista.elementBeetween(16, lista, 16);
         lista.addElementAtLast(98, lista);
