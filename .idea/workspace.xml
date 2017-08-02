@@ -2,43 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a121a085-7c49-47e9-a30b-cb62234e8ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/AlgorithmFactory.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/AlgorithmFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Kopiec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/AbstractAlgorithm.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/AbstractAlgorithm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BiednyCamelCase.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/BiednyCamelCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Fibonacci.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Fibonacci.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/OdejmowanieKwoty.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/OdejmowanieKwoty.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/RokPrzestepny.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/RokPrzestepny.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Silnia.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Silnia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SortowanieWzglendemOdleglosci.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SortowanieWzglendemOdleglosci.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SumaLiczbWejsciowych.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SumaLiczbWejsciowych.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SumowanieLiczbNaturalnych.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SumowanieLiczbNaturalnych.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SzyfrCezara.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/SzyfrCezara.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Test.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/WyznaczanieCyfrSilni.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Algorithms/WyznaczanieCyfrSilni.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorytmy/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorytmy/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmFactory.java" afterPath="$PROJECT_DIR$/src/AlgorithmFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/AbstractAlgorithm.java" afterPath="$PROJECT_DIR$/src/Algorithms/AbstractAlgorithm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java" afterPath="$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/DataDzien.java" afterPath="$PROJECT_DIR$/src/Algorithms/DataDzien.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Fibonacci.java" afterPath="$PROJECT_DIR$/src/Algorithms/Fibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Flamaster.java" afterPath="$PROJECT_DIR$/src/Algorithms/Flamaster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Interpretacja.java" afterPath="$PROJECT_DIR$/src/Algorithms/Interpretacja.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/ListaKolor.java" afterPath="$PROJECT_DIR$/src/Algorithms/ListaKolor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/NWD.java" afterPath="$PROJECT_DIR$/src/Algorithms/NWD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/NowaDzialka.java" afterPath="$PROJECT_DIR$/src/Algorithms/NowaDzialka.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Obzartuchy.java" afterPath="$PROJECT_DIR$/src/Algorithms/Obzartuchy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/OdejmowanieKwoty.java" afterPath="$PROJECT_DIR$/src/Algorithms/OdejmowanieKwoty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/OdwrotnoscCamelCase.java" afterPath="$PROJECT_DIR$/src/Algorithms/OdwrotnoscCamelCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Palindrom.java" afterPath="$PROJECT_DIR$/src/Algorithms/Palindrom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/RokPrzestepny.java" afterPath="$PROJECT_DIR$/src/Algorithms/RokPrzestepny.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Silnia.java" afterPath="$PROJECT_DIR$/src/Algorithms/Silnia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SortowaniePrzezZliczanie.java" afterPath="$PROJECT_DIR$/src/Algorithms/SortowaniePrzezZliczanie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SortowanieWzglendemOdleglosci.java" afterPath="$PROJECT_DIR$/src/Algorithms/SortowanieWzglendemOdleglosci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SpacjeCamelCase.java" afterPath="$PROJECT_DIR$/src/Algorithms/SpacjeCamelCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Statki.java" afterPath="$PROJECT_DIR$/src/Algorithms/Statki.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SumaLiczbWejsciowych.java" afterPath="$PROJECT_DIR$/src/Algorithms/SumaLiczbWejsciowych.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SumowanieLiczbNaturalnych.java" afterPath="$PROJECT_DIR$/src/Algorithms/SumowanieLiczbNaturalnych.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SzukanieLidera.java" afterPath="$PROJECT_DIR$/src/Algorithms/SzukanieLidera.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java" afterPath="$PROJECT_DIR$/src/Algorithms/SzyfrCezara.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Tablice.java" afterPath="$PROJECT_DIR$/src/Algorithms/Tablice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Test.java" afterPath="$PROJECT_DIR$/src/Algorithms/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/TestowanieListy.java" afterPath="$PROJECT_DIR$/src/Algorithms/TestowanieListy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Warcaby.java" afterPath="$PROJECT_DIR$/src/Algorithms/Warcaby.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/Wielkanoc.java" afterPath="$PROJECT_DIR$/src/Algorithms/Wielkanoc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/WyznaczanieCyfrSilni.java" afterPath="$PROJECT_DIR$/src/Algorithms/WyznaczanieCyfrSilni.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" afterPath="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/mRandom.java" afterPath="$PROJECT_DIR$/src/Algorithms/mRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/sortowanieBabelkowe.java" afterPath="$PROJECT_DIR$/src/Algorithms/sortowanieBabelkowe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java" afterPath="$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java" />
     </list>
     <ignored path="Algorytmy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +48,8 @@
       <file leaf-file-name="AlgorithmFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -85,12 +65,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrzewoKompletne.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrzewoKompletne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="-136">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kopiec.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Kopiec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,16 +143,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tablice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Tablice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Test.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -198,11 +186,9 @@
         <option value="$PROJECT_DIR$/src/Struktury/Element.java" />
         <option value="$PROJECT_DIR$/src/Struktury/List.java" />
         <option value="$PROJECT_DIR$/src/Struktury/mList.java" />
-        <option value="$PROJECT_DIR$/src/AlgorithmFactory.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/AbstractAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/DataDzien.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Flamaster.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Interpretacja.java" />
@@ -232,6 +218,9 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Wielkanoc.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/WyznaczanieCyfrSilni.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java" />
+        <option value="$PROJECT_DIR$/src/AlgorithmFactory.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Kopiec.java" />
       </list>
     </option>
   </component>
@@ -795,16 +784,16 @@
       <workItem from="1501515635808" duration="11330000" />
       <workItem from="1501600817988" duration="11248000" />
       <workItem from="1501687072140" duration="223000" />
-      <workItem from="1501696575460" duration="711000" />
+      <workItem from="1501696575460" duration="2643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60542000" />
+    <option name="totallyTimeSpent" value="62474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -813,7 +802,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -860,13 +849,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/BiednyCamelCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="17" selection-start-line="22" selection-start-column="16" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Wielkanoc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1221,14 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1237,11 +1211,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/DrzewoKompletne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="-136">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Kopiec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

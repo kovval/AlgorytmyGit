@@ -70,6 +70,8 @@ public class AlgorithmFactory {
                 return new ListaKolor();
             case "drzewokompletne":
                 return new DrzewoKompletne();
+            case "kopies" :
+                return new Kopiec();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
