@@ -10,7 +10,7 @@ public class SumowanieLiczbNaturalnych extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         int n = Integer.parseInt(input[1]); // Pobierz ile kolejnych liczb naturalnych będziemy sumować
         int suma = 0;
         int i = 1;
@@ -19,6 +19,6 @@ public class SumowanieLiczbNaturalnych extends AbstractAlgorithm {
             i++; //zwiększamy iterator i jednocześnie zwiększamy o 1 liczbę naturalną do kolejnego sumowania
         }
         System.out.println(suma);
-        return null;
+
     }
 }

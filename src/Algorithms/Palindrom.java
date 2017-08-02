@@ -10,7 +10,7 @@ public class Palindrom extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         for (int i = 1; i < input.length; i++) {
             int number = Integer.parseInt(input[i]);
@@ -37,7 +37,7 @@ public class Palindrom extends AbstractAlgorithm {
                 System.out.printf("\n%d jest palindromem po %d sumowaniu odwrotności w postaci liczby: %d ", mark, reps-1, sum );
             }
         }
-            return null;
+
 
         }
     }

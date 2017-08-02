@@ -10,7 +10,7 @@ public class SpacjeCamelCase extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         for(int liczbaSlow = 1; liczbaSlow < input.length; liczbaSlow++) {
             String slowa = input[liczbaSlow];
@@ -29,9 +29,5 @@ public class SpacjeCamelCase extends AbstractAlgorithm {
 
 
 
-
-
-
-        return null;
     }
 }

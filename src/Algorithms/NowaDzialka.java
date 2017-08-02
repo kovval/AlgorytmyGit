@@ -10,7 +10,7 @@ public class NowaDzialka extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         double[] poleDzialki = new double[input.length];
         for (int i=1; i< input.length;i++){
@@ -25,6 +25,5 @@ public class NowaDzialka extends AbstractAlgorithm {
         }
 
 
-        return null;
     }
 }

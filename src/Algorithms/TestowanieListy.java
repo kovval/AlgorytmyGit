@@ -14,7 +14,7 @@ public class TestowanieListy extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         mList lista = new mList();
 
 //        lista.addElementAtBeginning(14, lista);
@@ -27,7 +27,6 @@ public class TestowanieListy extends AbstractAlgorithm {
 
 
 
-return null;
     }
 
     }

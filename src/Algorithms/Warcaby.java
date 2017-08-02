@@ -12,7 +12,7 @@ public class Warcaby extends AbstractAlgorithm {
     private String _bialeCzarne[] = {"B", "C"};
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         int dlugosc = Integer.parseInt(input[1]);
         int szerokosc = Integer.parseInt((input[2]));
@@ -43,8 +43,7 @@ public class Warcaby extends AbstractAlgorithm {
                         if (j == szerokoscTablicy - 1) System.out.print("\n");
                     }
                 }
-//            }
-        return null;
+
         }
 
     }

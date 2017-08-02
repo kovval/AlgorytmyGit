@@ -7,7 +7,7 @@ public class BiednyCamelCase extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         int letters = 0; //Licznik zliczający wszystkie literki, aby można było określić czy wypisać z dużej czy z małej
         for(int wordsCounter = 1; wordsCounter<input.length; wordsCounter++)
@@ -32,6 +32,5 @@ public class BiednyCamelCase extends AbstractAlgorithm {
             }
             System.out.print(" "); //Między słowami dokładamy spacje
         }
-        return null;
     }
 }

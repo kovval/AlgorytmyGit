@@ -14,7 +14,7 @@ public class Interpretacja extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
 //wejście składa się z trzech stringów
 
@@ -55,6 +55,6 @@ public class Interpretacja extends AbstractAlgorithm {
 
 
 //        System.out.println(odpBogdana);
-        return null;
+
     }
 }

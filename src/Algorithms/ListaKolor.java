@@ -15,7 +15,7 @@ public class ListaKolor extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         ArrayList<String> lista = new ArrayList<>();
         lista.add("niebieski");
         lista.add("czarny");
@@ -27,6 +27,6 @@ public class ListaKolor extends AbstractAlgorithm {
         System.out.println(lista);
 
 
-        return null;
+
     }
 }

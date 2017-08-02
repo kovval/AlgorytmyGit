@@ -10,7 +10,7 @@ public class Wielkanoc extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
 for (int j = 1; j<input.length; j++ ) {
     int rok = Integer.parseInt(input[j]);
@@ -36,6 +36,6 @@ for (int j = 1; j<input.length; j++ ) {
         System.out.printf("\ndzień wielkanocy %d roku to: %d Marca ", rok, p + 1);
     }
 }
-        return null;
+
     }
 }

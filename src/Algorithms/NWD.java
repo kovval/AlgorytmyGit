@@ -10,13 +10,13 @@ public class NWD extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         int k = Integer.parseInt(input[1]);
         int n = Integer.parseInt(input[2]);
 
         System.out.printf("NWD dla n %d ", Nwd(n, k));
 
-        return null;
+
     }
 
 

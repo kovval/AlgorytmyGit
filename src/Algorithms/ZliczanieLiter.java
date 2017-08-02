@@ -13,7 +13,7 @@ public class ZliczanieLiter extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         StringBuilder litery = new StringBuilder();
         for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) {
@@ -41,7 +41,6 @@ public class ZliczanieLiter extends AbstractAlgorithm {
         }
         System.out.println(liczenieLiter);
 
-            return null;
 
         }
 

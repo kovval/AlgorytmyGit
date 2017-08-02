@@ -8,8 +8,8 @@ public class Test extends AbstractAlgorithm{
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         System.out.println("To jest algorytm testowy!");
-        return null;
+
     }
 }

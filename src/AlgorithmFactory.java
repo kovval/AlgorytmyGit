@@ -68,6 +68,8 @@ public class AlgorithmFactory {
                 return new TestowanieListy();
             case "listakolor":
                 return new ListaKolor();
+            case "drzewokompletne":
+                return new DrzewoKompletne();
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }

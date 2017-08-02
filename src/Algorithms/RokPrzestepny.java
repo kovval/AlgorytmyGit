@@ -7,7 +7,7 @@ public class RokPrzestepny extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         for(int i = 1; i<input.length; i++){
             int rok = Integer.parseInt(input[i]); //do zmiennej rok przypisuje sparsowany rok
             if(((rok % 4 == 0) && (rok % 100 != 0)) || (rok % 400 == 0)){
@@ -17,6 +17,6 @@ public class RokPrzestepny extends AbstractAlgorithm {
                 System.out.printf("%d nie jest przestępny\n", rok);
             }
         }
-        return null;
+
     }
 }

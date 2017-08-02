@@ -13,7 +13,7 @@ public class mRandom extends AbstractAlgorithm {
 
     @Override
 
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         Random mRandom = new Random();
 
         int[] tablosowe = new int[10];
@@ -59,7 +59,6 @@ public class mRandom extends AbstractAlgorithm {
             }
         System.out.printf("Max indeks to:%d, a wartość to %d, a min indeks to: %d, a wartość to %d", max,tabMaxMin[max], min, tabMaxMin[min]);
 
-        return null;
         }
 
     }

@@ -7,10 +7,10 @@ public class Silnia extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         int n = Integer.parseInt(input[1]);
         System.out.println(Silnia(n));
-        return null;
+
     }
 
     private int Silnia(int n){

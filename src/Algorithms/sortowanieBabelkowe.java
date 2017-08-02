@@ -10,7 +10,7 @@ public class sortowanieBabelkowe extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         int[] sortowanaTablica = new int[input.length - 1];
 
@@ -34,6 +34,5 @@ public class sortowanieBabelkowe extends AbstractAlgorithm {
             System.out.printf("%d ", sortowanaTablica[i]);
         }
 
-        return null;
     }
 }
