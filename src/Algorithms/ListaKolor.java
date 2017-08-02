@@ -24,6 +24,7 @@ public class ListaKolor extends AbstractAlgorithm {
         lista.add(0, "pink");
         lista.add(5, "green");
 
+
         System.out.println(lista);
 
 
