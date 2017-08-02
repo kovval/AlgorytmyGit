@@ -16,7 +16,7 @@ public class DataDzien extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
 
         int rok = Integer.parseInt(input[3]);
@@ -58,6 +58,6 @@ public class DataDzien extends AbstractAlgorithm {
 
 
 
-        return null;
+
     }
 }

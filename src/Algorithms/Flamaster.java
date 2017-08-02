@@ -11,7 +11,7 @@ public class Flamaster extends AbstractAlgorithm {
 
     @Override
 
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) {
             String word = input[wordsCounter];
@@ -44,7 +44,6 @@ public class Flamaster extends AbstractAlgorithm {
 
         }
 
-return input.toString();
 
     }
     }

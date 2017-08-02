@@ -10,7 +10,7 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         //sortowanie wzgledem punktu: 3, punkt: 1 x = 0 y = 0, 3 x = 5 y = 5, 2 x =1 y = -1
         // sortowanie wzgledem punktu 3 1 0 0 3 5 5 2 1 -1
         //sqrt(x^2+y^2)
@@ -87,7 +87,7 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
 //                        }
                 }
 //                    }
-        return null;
+
     }
             }
 

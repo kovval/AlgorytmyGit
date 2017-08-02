@@ -10,7 +10,7 @@ public class Tablice extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
         //trzy tablice trzeba zrobic jedna ma przechowywac wszystkie dane
         // druga ma przepisac wszystkie dane z tej pierwszej
         //potem ta pierwsza ma ponumerowac swoje liczby, gdzie pierwsza bedzie najczesciej wystepujaca
@@ -72,6 +72,5 @@ public class Tablice extends AbstractAlgorithm {
 //        System.out.printf("\nDominanta pozyskana w inny sposob to w tym wypadku to: %d", innyWynik);
 
 
-        return null;
     }
 }

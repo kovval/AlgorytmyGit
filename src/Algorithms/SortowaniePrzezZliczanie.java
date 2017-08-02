@@ -10,7 +10,7 @@ public class SortowaniePrzezZliczanie extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
 //        int maksimumTablicy = input.length -1;
         int n = input.length-2;
@@ -40,6 +40,6 @@ public class SortowaniePrzezZliczanie extends AbstractAlgorithm {
             }
 // Dorobic wypisywanie          1 2 3 4 5 6 7 8 9
 // ponizej podać ilosc np       2 3 4 4 0 2 6 3 2
-        return null;
+
     }
 }

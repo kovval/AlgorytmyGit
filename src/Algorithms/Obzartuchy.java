@@ -10,7 +10,7 @@ public class Obzartuchy extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         int zaproszeni = Integer.parseInt(input[1]);
         int liczbaCiastekWPudelku = Integer.parseInt(input[2]);
@@ -36,8 +36,5 @@ public class Obzartuchy extends AbstractAlgorithm {
 
 
 
-
-
-        return null;
     }
 }

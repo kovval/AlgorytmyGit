@@ -7,7 +7,7 @@ public class OdejmowanieKwoty extends AbstractAlgorithm {
     }
 
     @Override
-    public String runAlgorithm(String[] input) {     //Użycie: odejmowaniekwoty 1757 45
+    public void runAlgorithm(String[] input) {     //Użycie: odejmowaniekwoty 1757 45
 
         int amountZloty = Integer.parseInt(input[1]); //Wejściowa kwota złotych zamieniona na inta
         int amountGroszy = Integer.parseInt(input[2]); //Wejściowa kwota groszy zamieniona na inta
@@ -55,6 +55,6 @@ public class OdejmowanieKwoty extends AbstractAlgorithm {
             if(numberOfGroszy[i] > 0)
                 System.out.printf("%d x %d gr\n", numberOfGroszy[i], denominationsOfGrosze[i]);
         }
-        return null;
+
     }
 }

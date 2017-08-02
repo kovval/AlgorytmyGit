@@ -19,7 +19,7 @@ public class OdwrotnoscCamelCase extends AbstractAlgorithm {
             "y", "z"};
 
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 
         for (int liczbaSlow = 1; liczbaSlow < input.length; liczbaSlow++) {
             String slowa = input[liczbaSlow];
@@ -37,7 +37,7 @@ public class OdwrotnoscCamelCase extends AbstractAlgorithm {
                     }
 
                 }
-        return null;
+
             }
 
         }

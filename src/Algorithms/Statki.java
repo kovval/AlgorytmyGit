@@ -13,7 +13,7 @@ public class Statki extends AbstractAlgorithm {
             "Q", "R", "S", "T", "U", "W", "V", "X",
             "Y", "Z"};
     @Override
-    public String runAlgorithm(String[] input) {
+    public void runAlgorithm(String[] input) {
 // sprawdzic czy wczytana liczba jest wymiarowalna
         // wczytywac tablice literek do robienia poziomu
         // ma to wygladac mniej wiecej tak
@@ -49,6 +49,6 @@ public class Statki extends AbstractAlgorithm {
             System.out.println("zła wartość");
         }
 
-        return null;
+
     }
 }

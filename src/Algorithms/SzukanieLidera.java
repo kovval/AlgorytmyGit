@@ -10,7 +10,7 @@
 //    }
 //
 //    @Override
-//    public String runAlgorithm(String[] input) {
+//    public void runAlgorithm(String[] input) {
 //
 //        int[] lider = new int[input.length-1];
 //
@@ -38,8 +38,6 @@
 //
 //
 //
-//
-//
-//        return null;
+
 //    }
 //}
