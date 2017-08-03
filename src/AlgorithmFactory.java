@@ -62,6 +62,8 @@ public class AlgorithmFactory {
                 return new OdwrotnoscCamelCase();
             case "mrandom" :
                 return new mRandom();
+            case "drukowanykopiec":
+                return new drukowanyKopiec();
 //            case "szukanielidera" :
 //                return new SzukanieLidera();
 //            case "testowanielisty" :
@@ -70,8 +72,12 @@ public class AlgorithmFactory {
                 return new ListaKolor();
             case "drzewokompletne":
                 return new DrzewoKompletne();
-            case "kopies" :
-                return new Kopiec();
+            case "prostedrzewo" :
+                return new ProsteDrzewo();
+            case "przeliczaniesystemu" :
+                return new PrzeliczanieSystemu();
+            case "odwrotnanotacjapolska" :
+                return new OdwrotnaNotacjaPolska();
 
 
             default:
