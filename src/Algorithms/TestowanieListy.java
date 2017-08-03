@@ -19,8 +19,10 @@ public class TestowanieListy extends AbstractAlgorithm {
 
 //        lista.addElementAtBeginning(14, lista);
         lista.addElementAtBeginning(25, lista);
-        lista.elementBeetween(16, lista, 16);
+        lista.addElementAtBeginning(26, lista);
+        lista.getElementForward(123,lista);
         lista.addElementAtLast(98, lista);
+        lista.elementBeetween(16, lista, 16);
         lista.elementNextAfter(104, 98, lista);
 
         lista.printAllElement(lista);
