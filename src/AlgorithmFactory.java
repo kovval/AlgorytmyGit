@@ -64,18 +64,16 @@ public class AlgorithmFactory {
                 return new mRandom();
 //            case "szukanielidera" :
 //                return new SzukanieLidera();
-            case "testowanielisty" :
-                return new TestowanieListy();
+//            case "testowanielisty" :
+//                return new TestowanieListy();
             case "listakolor":
                 return new ListaKolor();
             case "drzewokompletne":
-<<<<<<< HEAD
                 return new DrzewoKompletne();
             case "kopies" :
                 return new Kopiec();
-=======
-                return new ProsteDrzewo();
->>>>>>> 6e2c5f4694731fba37b7561a226cfb1bb0e0ffd5
+
+
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
