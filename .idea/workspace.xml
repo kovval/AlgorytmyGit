@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProsteDrzewo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProsteDrzewo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/ProsteDrzewo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1593">
-              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state relative-caret-position="1253">
+              <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
               <folding>
                 <element signature="e#161#162#0" expanded="true" />
                 <element signature="e#199#200#0" expanded="true" />
@@ -95,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Struktury/mList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="175" column="1" lean-forward="false" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+            <state relative-caret-position="777">
+              <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -215,9 +215,9 @@
         <option value="$PROJECT_DIR$/src/Algorithms/WyznaczanieCyfrSilni.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/ZliczanieLiter.java" />
         <option value="$PROJECT_DIR$/src/AlgorithmFactory.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/ProsteDrzewo.java" />
         <option value="$PROJECT_DIR$/src/Struktury/Kopiec.java" />
         <option value="$PROJECT_DIR$/src/Struktury/mList.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/ProsteDrzewo.java" />
       </list>
     </option>
   </component>
@@ -1024,17 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/ProsteDrzewo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Struktury/Kopiec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1045,9 +1034,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Struktury/mList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="175" column="1" lean-forward="false" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        <state relative-caret-position="777">
+          <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/ProsteDrzewo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1253">
+          <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

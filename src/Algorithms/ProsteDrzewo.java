@@ -102,8 +102,6 @@ public class ProsteDrzewo extends AbstractAlgorithm {
             System.out.printf("Element %s nie posiada prawego syna\n", _tree[i]);
 
         }
-    }
-}
 
 
 
