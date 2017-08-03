@@ -62,14 +62,24 @@ public class AlgorithmFactory {
                 return new OdwrotnoscCamelCase();
             case "mrandom" :
                 return new mRandom();
+            case "drukowanykopiec":
+                return new drukowanyKopiec();
 //            case "szukanielidera" :
 //                return new SzukanieLidera();
-            case "testowanielisty" :
-                return new TestowanieListy();
+//            case "testowanielisty" :
+//                return new TestowanieListy();
             case "listakolor":
                 return new ListaKolor();
             case "drzewokompletne":
+                return new DrzewoKompletne();
+            case "prostedrzewo" :
                 return new ProsteDrzewo();
+            case "przeliczaniesystemu" :
+                return new PrzeliczanieSystemu();
+            case "odwrotnanotacjapolska" :
+                return new OdwrotnaNotacjaPolska();
+
+
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
         }
