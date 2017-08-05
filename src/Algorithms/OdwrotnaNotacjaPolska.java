@@ -27,23 +27,23 @@ public class OdwrotnaNotacjaPolska extends AbstractAlgorithm {
                     break;
 
                 case "D":
-                    k = (Integer) owp.pop();
-                    d = (Integer) owp.pop();
+                     k = (Integer) owp.pop();
+                     d = (Integer) owp.pop();
                     sum = k + d;
                     owp.push(sum);
                     break;
 
 
                 case "O":
-                    k = (Integer) owp.pop();
+                     k = (Integer) owp.pop();
                     d = (Integer) owp.pop();
                     sum = d - k;
                     owp.push(sum);
                     break;
 
                 case "I":
-                    k = (Integer) owp.pop();
-                    d = (Integer) owp.pop();
+                     k = (Integer) owp.pop();
+                     d = (Integer) owp.pop();
                     sum = d / k;
                     owp.push(sum);
                     break;
