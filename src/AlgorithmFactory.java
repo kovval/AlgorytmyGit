@@ -78,6 +78,10 @@ public class AlgorithmFactory {
                 return new PrzeliczanieSystemu();
             case "odwrotnanotacjapolska" :
                 return new OdwrotnaNotacjaPolska();
+            case "zmienneitablice":
+                return new ZmienneITablice();
+            case "todelete" :
+                return new toDelete();
 
 
             default:
