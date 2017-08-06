@@ -19,7 +19,6 @@ public class Palindrom extends AbstractAlgorithm {
             int mark = number;
             int reps = 0;
 
-
             while (rememberNumber != sum) {
                 rememberNumber = sum + rememberNumber;
                 sum = 0;
@@ -34,13 +33,11 @@ public class Palindrom extends AbstractAlgorithm {
             if (reps == 1) {
                 System.out.printf("\n%d jest palindromem bez sumowanie jej odwrotności", sum);
             } else {
-                System.out.printf("\n%d jest palindromem po %d sumowaniu odwrotności w postaci liczby: %d ", mark, reps-1, sum );
+                System.out.printf("\n%d jest palindromem po %d sumowaniu odwrotności w postaci liczby: %d ", mark, reps - 1, sum);
             }
         }
-
-
-        }
     }
+}
 
 
 

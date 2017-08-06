@@ -8,10 +8,12 @@ public class Statki extends AbstractAlgorithm {
     public String getName() {
         return null;
     }
+
     private String _literka[] = {"A", "B", "C", "D", "E", "F", "G", "H",
             "I", "J", "K", "L", "M", "N", "O", "P",
             "Q", "R", "S", "T", "U", "W", "V", "X",
             "Y", "Z"};
+
     @Override
     public void runAlgorithm(String[] input) {
 // sprawdzic czy wczytana liczba jest wymiarowalna
@@ -23,32 +25,28 @@ public class Statki extends AbstractAlgorithm {
         //        liczbaKwadratu = (int) sqrt;
 
         int liczbaKwadratu = Integer.parseInt(input[1]);
-        if(Math.sqrt(liczbaKwadratu)%1==0){
+        if (Math.sqrt(liczbaKwadratu) % 1 == 0) {
             System.out.println(liczbaKwadratu);
 
-            int dlugoscTablicy = (int)Math.sqrt(liczbaKwadratu);
+            int dlugoscTablicy = (int) Math.sqrt(liczbaKwadratu);
             String[][] statki = new String[dlugoscTablicy][dlugoscTablicy];
 
-            for(int i=0; i< dlugoscTablicy; i++) {
-                for (int j= 0; j < dlugoscTablicy; j++) {
+            for (int i = 0; i < dlugoscTablicy; i++) {
+                for (int j = 0; j < dlugoscTablicy; j++) {
 
-                    statki[i][j] = _literka[i]+(j+1);
-
+                    statki[i][j] = _literka[i] + (j + 1);
                 }
             }
 
-            for(int i=0; i< dlugoscTablicy; i++) {
-                for (int j = 0; j < dlugoscTablicy ; j++) {
+            for (int i = 0; i < dlugoscTablicy; i++) {
+                for (int j = 0; j < dlugoscTablicy; j++) {
                     System.out.printf("%s ", statki[i][j]);
-                    if (j==dlugoscTablicy-1) System.out.print("\n");
+                    if (j == dlugoscTablicy - 1) System.out.print("\n");
                 }
             }
 
-        }
-        else {
+        } else {
             System.out.println("zła wartość");
         }
-
-
     }
 }

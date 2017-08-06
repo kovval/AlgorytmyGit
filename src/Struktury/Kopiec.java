@@ -58,8 +58,8 @@ public class Kopiec {
 
     public void drukowanieKopca() {
 
-            for (int i = 0; i < _counter; i++) {
-                System.out.printf("%d ", _data[i]);
+        for (int i = 0; i < _counter; i++) {
+            System.out.printf("%d ", _data[i]);
 //                for (int j = 0; j < Math.pow(2, i/2); j++) {
 //                    System.out.printf("\n");
 //            }

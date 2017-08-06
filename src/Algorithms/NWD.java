@@ -15,11 +15,7 @@ public class NWD extends AbstractAlgorithm {
         int n = Integer.parseInt(input[2]);
 
         System.out.printf("NWD dla n %d ", Nwd(n, k));
-
-
     }
-
-
     private int Nwd(int k, int n) {
         if (k == 0) return n;
 

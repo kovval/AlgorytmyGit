@@ -35,7 +35,7 @@ public class OdejmowanieKwoty extends AbstractAlgorithm {
         //Aby wydrukować konkretne wartości trzeba przejść przez pętle, która pozwoli na odczyt
         //ilości monet/banknotów, które wydaliśmy
         for (int i = 0; i < denominationsOfZloty.length; i++) {
-            if(numberOfZloty[i] > 0)//Dla czytelności wydrukuj tylko te nominały, które wykorzystaliśmy
+            if (numberOfZloty[i] > 0)//Dla czytelności wydrukuj tylko te nominały, które wykorzystaliśmy
                 System.out.printf("%d x %d zł\n", numberOfZloty[i], denominationsOfZloty[i]);
             //%d oznacza odwołanie się do elementu, który jest typu int, \n oznacza przejście do nowej linii
             //każdemu %d odpowiadają kolejne argumenty po napisie w ""
@@ -52,7 +52,7 @@ public class OdejmowanieKwoty extends AbstractAlgorithm {
             }
         }
         for (int i = 0; i < denominationsOfGrosze.length; i++) {
-            if(numberOfGroszy[i] > 0)
+            if (numberOfGroszy[i] > 0)
                 System.out.printf("%d x %d gr\n", numberOfGroszy[i], denominationsOfGrosze[i]);
         }
 

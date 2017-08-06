@@ -30,17 +30,14 @@ public class OdwrotnoscCamelCase extends AbstractAlgorithm {
                     if (_duzeLitery[j].equals(String.valueOf(literyWSlowie[i]))) {
                         System.out.print(" " + Character.toString(literyWSlowie[i]).toUpperCase());
                     }
-                        if(_maleLitery[j].equals(String.valueOf(literyWSlowie[i]))) {
-                            System.out.print(Character.toString(literyWSlowie[i]));
+                    if (_maleLitery[j].equals(String.valueOf(literyWSlowie[i]))) {
+                        System.out.print(Character.toString(literyWSlowie[i]));
                     }
-                    }
-                    }
-
                 }
-
             }
-
         }
+    }
+}
 
 
 

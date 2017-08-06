@@ -36,8 +36,8 @@ public class Flamaster extends AbstractAlgorithm {
                 } else if (count > 2) { // jeżeli więcej niż 2 dodtanie liczby powtórzeń
                     shorWord.append(count);
                 }
-                if(i==word.length()-2){//jeżeli przedostatni znak = i bez tego nie skończy
-                    shorWord.append(word.charAt(i+1));
+                if (i == word.length() - 2) {//jeżeli przedostatni znak = i bez tego nie skończy
+                    shorWord.append(word.charAt(i + 1));
                 }
             }
             System.out.printf("%s ", shorWord);
@@ -46,5 +46,5 @@ public class Flamaster extends AbstractAlgorithm {
 
 
     }
-    }
+}
 

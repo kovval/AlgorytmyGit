@@ -26,8 +26,5 @@ public class ListaKolor extends AbstractAlgorithm {
 
 
         System.out.println(lista);
-
-
-
     }
 }

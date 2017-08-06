@@ -55,29 +55,29 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
 //
 //                }
 
-                for (int i = 0; i < n; i++) {
-                    for (int j = 0; j < n - 1; j++) {
-                        if (tablicaWynikow[j][1] > tablicaWynikow[j + 1][1]) {
-                            int temp[] = new int[2];
-                            temp[0] = tablicaWynikow[j][0];
-                            temp[1] = tablicaWynikow[j][1];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n - 1; j++) {
+                if (tablicaWynikow[j][1] > tablicaWynikow[j + 1][1]) {
+                    int temp[] = new int[2];
+                    temp[0] = tablicaWynikow[j][0];
+                    temp[1] = tablicaWynikow[j][1];
 
-                            tablicaWynikow[j][0] = tablicaWynikow[j + 1][0];
-                            tablicaWynikow[j][1] = tablicaWynikow[j + 1][1];
+                    tablicaWynikow[j][0] = tablicaWynikow[j + 1][0];
+                    tablicaWynikow[j][1] = tablicaWynikow[j + 1][1];
 
-                            tablicaWynikow[j + 1][0] = temp[0];
-                            tablicaWynikow[j + 1][1] = temp[1];
-                        }
-                    }
+                    tablicaWynikow[j + 1][0] = temp[0];
+                    tablicaWynikow[j + 1][1] = temp[1];
+                }
+            }
 
-                    for (i = 0; i < n; i++) {
-                        int punkt = tablicaWynikow[i][0];
-                        for (int j = 0; j < n; j++) {
-                            if (punkt == tablicaPuntkow[j][0])
-                                System.out.printf("punkt: %d; X: %d; Y: %d\n",
-                                        punkt, tablicaPuntkow[j][1], tablicaPuntkow[j][2]);
-                        }
-                    }
+            for (i = 0; i < n; i++) {
+                int punkt = tablicaWynikow[i][0];
+                for (int j = 0; j < n; j++) {
+                    if (punkt == tablicaPuntkow[j][0])
+                        System.out.printf("punkt: %d; X: %d; Y: %d\n",
+                                punkt, tablicaPuntkow[j][1], tablicaPuntkow[j][2]);
+                }
+            }
 
 //                    for (i = 0; i < n; i++) {
 //                        for (int j = 0; j < n - 1; j++) {
@@ -85,11 +85,11 @@ public class SortowanieWzglendemOdleglosci extends AbstractAlgorithm {
 //                            System.out.printf("[%d] \n", tablicaWynikow[i][j]);
 //
 //                        }
-                }
+        }
 //                    }
 
     }
-            }
+}
 
 
 

@@ -13,7 +13,7 @@ public class WyznaczanieCyfrSilni extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
         int n = Integer.parseInt(input[1]);
 
-        switch (n){
+        switch (n) {
             case 0:
             case 1:
                 System.out.println("0 1");

@@ -15,23 +15,17 @@ public class PrzeliczanieSystemu extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
 
 
-
-
         Stack stosCufr = new Stack<>();
         int liczbaDoZminy = Integer.parseInt(input[1]);
         int podstawa = Integer.parseInt(input[2]);
 
-        while(liczbaDoZminy > 0) {
-            stosCufr.push(liczbaDoZminy%podstawa);
+        while (liczbaDoZminy > 0) {
+            stosCufr.push(liczbaDoZminy % podstawa);
             liczbaDoZminy = Math.floorDiv(liczbaDoZminy, podstawa);
         }
-            while( !stosCufr.empty()) {
-                System.out.printf("%d", stosCufr.peek());
-                stosCufr.pop();
-            }
-
-
-
-
+        while (!stosCufr.empty()) {
+            System.out.printf("%d", stosCufr.peek());
+            stosCufr.pop();
+        }
     }
 }

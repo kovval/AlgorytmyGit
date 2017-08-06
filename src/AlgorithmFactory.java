@@ -5,7 +5,7 @@ import Algorithms.*;
  */
 public class AlgorithmFactory {
     public AbstractAlgorithm getAlgorithm(String name) throws Exception {
-        switch (name.toLowerCase()){
+        switch (name.toLowerCase()) {
             case "test":
                 return new Test();
             case "biednycamelcase":
@@ -29,38 +29,38 @@ public class AlgorithmFactory {
             case "sortowaniebombelkowe":
                 return new sortowanieBabelkowe();
             case "sortowaniewzglendemodleglosci":
-                return new  SortowanieWzglendemOdleglosci();
+                return new SortowanieWzglendemOdleglosci();
             case "sortowanieprzezzliczanie":
                 return new SortowaniePrzezZliczanie();
-            case "statki" :
+            case "statki":
                 return new Statki();
-            case "flamaster" :
+            case "flamaster":
                 return new Flamaster();
-            case "palindrom" :
+            case "palindrom":
                 return new Palindrom();
-            case "nwd" :
-                    return new NWD();
-            case "warcaby" :
+            case "nwd":
+                return new NWD();
+            case "warcaby":
                 return new Warcaby();
-            case "tablice" :
+            case "tablice":
                 return new Tablice();
-            case "interpretacja" :
+            case "interpretacja":
                 return new Interpretacja();
-            case "datadzien" :
+            case "datadzien":
                 return new DataDzien();
-            case "wielkanoc" :
+            case "wielkanoc":
                 return new Wielkanoc();
-            case "obzartuchy" :
+            case "obzartuchy":
                 return new Obzartuchy();
-            case "nowadzialka" :
+            case "nowadzialka":
                 return new NowaDzialka();
-            case "zliczanieliter" :
+            case "zliczanieliter":
                 return new ZliczanieLiter();
-            case "spacjecamelcase" :
+            case "spacjecamelcase":
                 return new SpacjeCamelCase();
-            case "odwrotnosccamelcase" :
+            case "odwrotnosccamelcase":
                 return new OdwrotnoscCamelCase();
-            case "mrandom" :
+            case "mrandom":
                 return new mRandom();
             case "drukowanykopiec":
                 return new drukowanyKopiec();
@@ -72,17 +72,20 @@ public class AlgorithmFactory {
                 return new ListaKolor();
             case "drzewokompletne":
                 return new DrzewoKompletne();
-            case "prostedrzewo" :
+            case "prostedrzewo":
                 return new ProsteDrzewo();
-            case "przeliczaniesystemu" :
+            case "przeliczaniesystemu":
                 return new PrzeliczanieSystemu();
-            case "odwrotnanotacjapolska" :
+            case "odwrotnanotacjapolska":
                 return new OdwrotnaNotacjaPolska();
             case "zmienneitablice":
                 return new ZmienneITablice();
-            case "todelete" :
+            case "todelete":
                 return new toDelete();
-
+            case "stospalindrom":
+                return new StosPalindrom();
+            case "odwrotnanotacjapolskazad":
+                return new OdwrotnaNotacjaPolskaZad();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");

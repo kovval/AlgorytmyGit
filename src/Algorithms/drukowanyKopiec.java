@@ -14,10 +14,10 @@ public class drukowanyKopiec extends AbstractAlgorithm {
     @Override
     public void runAlgorithm(String[] input) {
 
-        int n = input.length-1;
+        int n = input.length - 1;
         Kopiec kopiec = new Kopiec(n);
 
-        for(int i =1; i< input.length; i++) {
+        for (int i = 1; i < input.length; i++) {
             int newElement = Integer.parseInt(input[i]);
             kopiec.addNewElement(newElement);
         }

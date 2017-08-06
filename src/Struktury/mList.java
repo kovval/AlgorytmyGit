@@ -14,7 +14,7 @@ public class mList {
             //wykonujemy jakąś logikę
             p = p.next; //naszym nowym p staje się następnik
         }
-}
+    }
 
     //SEKCJA DODAWAWANIA NOWYCH ELEMENTÓW NA POCZĄTKU / KOŃCU LISTY
     public void addElementAtBeginning(int newElement, mList list) //dodajemy nowy element na początku listy
@@ -26,13 +26,12 @@ public class mList {
         list._head = p; //nowo utworzony obiekt staje się głową
         list.counter++; //zwiększamy licznik o 1
 
-        if(p.next != null) //jeżeli mamy następnika
+        if (p.next != null) //jeżeli mamy następnika
         {
             Element nextEl = p.next; //wówczas oznacza to, że wcześniej był elementem pierwszym, z tego wniosek, że
             //nie mógł mieć poprzednika, więc stawiamy mu nasz obiekt jako poprzednika
             nextEl.prev = p;
-        }
-        else{
+        } else {
             //jeżeli nasz nowo dodany element nie ma następnika (np. całkowicie nowa lista
             // i dodajemy pierwszy element to staje się on jednocześnie ostatnim elementem (ogonem)
             list._tail = p;
@@ -48,13 +47,12 @@ public class mList {
         list._tail = p; //nowo utworzony obiekt staje się ogonem
         list.counter++; //zwiększamy licznik o 1
 
-        if(p.prev != null){ //jeżeli mamy poprzednika
+        if (p.prev != null) { //jeżeli mamy poprzednika
             Element prevEl = p.prev;
             //wówczas oznacza to, że wcześniej był elementem ostatnim, z tego wniosek, że
             //nie mógł mieć następnika, więc stawiamy mu nasz obiekt jako następnika
             prevEl.next = p;
-        }
-        else{
+        } else {
             list._head = p;
             //jeżeli nasz nowo dodany element nie ma poprzednika (np. całkowicie nowa lista
             // i dodajemy pierwszy element to staje się on jednocześnie pierwszym elementem (głową)
@@ -63,16 +61,15 @@ public class mList {
 
 
     //SEKCJA DODAWANIA ELEMENTU PRZED/PO WSKAZANYM ELEMENCIE
-    public void addElementBeforeElement(int elementToAdd, int elementBefore, mList list){
+    public void addElementBeforeElement(int elementToAdd, int elementBefore, mList list) {
         Element before = list.getElementForward(elementBefore, list); //wyszukujemy pierwszy element z wartością
         //przed którą chcemy dodać nowy element
 
-        if(before == list._head) //jeżeli element przed którym chcemy wstawiać wartość jest głową
+        if (before == list._head) //jeżeli element przed którym chcemy wstawiać wartość jest głową
         {
             list.addElementAtBeginning(elementToAdd, list); //to nie muszę kombinować -
             // skorzystam z dodawania na początku listy
-        }
-        else //w każdym innym przypadku muszę go wstawić i pozmieniać odpowiednio wskaźniki
+        } else //w każdym innym przypadku muszę go wstawić i pozmieniać odpowiednio wskaźniki
         {
             Element p = new Element(); //tworzymy nowy element
             p.data = elementToAdd; //zapisujemy wartość, którą chcemy dodać do pola data
@@ -88,16 +85,15 @@ public class mList {
         }
     }
 
-    public void addElementAfterElement(int elementToAdd, int elementAfter, mList list){
+    public void addElementAfterElement(int elementToAdd, int elementAfter, mList list) {
         Element after = list.getElementForward(elementAfter, list); //wyszukujemy pierwszy element z wartością
         //za którą chcemy dodać nowy element
 
-        if(after == list._tail) //jeżeli element za którym chcemy wstawiać wartość jest ogonem
+        if (after == list._tail) //jeżeli element za którym chcemy wstawiać wartość jest ogonem
         {
             list.addElementAtEnd(elementToAdd, list); //to nie muszę kombinować -
             // skorzystam z dodawania na końcu listy
-        }
-        else //w każdym innym przypadku muszę go wstawić i pozmieniać odpowiednio wskaźniki
+        } else //w każdym innym przypadku muszę go wstawić i pozmieniać odpowiednio wskaźniki
         {
             Element p = new Element();//tworzymy nowy element
             p.data = elementToAdd; //zapisujemy wartość, którą chcemy dodać do pola data
@@ -113,29 +109,27 @@ public class mList {
 
     }
 
-    public void deleteElement(int elementToDelete, mList list){
+    public void deleteElement(int elementToDelete, mList list) {
         Element toDelete = list.getElementForward(elementToDelete, list); //wyszukujemy pierwszy element z wartością
 
         list.counter--; //zmniejszamy licznik o 1
-        if(toDelete.prev != null) //jeżeli nasz element ma poprzednika
+        if (toDelete.prev != null) //jeżeli nasz element ma poprzednika
         {
             Element prevOfDelete = toDelete.prev; // pobieramy element poprzedzający element do usunięcia
             prevOfDelete.next = toDelete.next; // temu elementowi pobranemu wyżej ustawiamy jako następnik
             //następnik elementu który chcemy usunąć
-        }
-        else //jeżeli nie mamy poprzednika
+        } else //jeżeli nie mamy poprzednika
         {
             list._head = toDelete.next; //oznacza to, że byliśmy głową, więc teraz głową staje się następnik elementu
             //do usunięcia
         }
 
-        if(toDelete.next != null) //jeżeli nasz element ma następnika
+        if (toDelete.next != null) //jeżeli nasz element ma następnika
         {
             Element nextOfDelete = toDelete.next; // pobieramy element następny po elemencie do usunięcia
             nextOfDelete.prev = toDelete.prev; // temu elementowi pobranemu wyżej ustawiamy jako poprzednik
             //poprzednik elementu który chcemy usunąć
-        }
-        else //jeżeli nie mamy następnika
+        } else //jeżeli nie mamy następnika
         {
             list._tail = toDelete.prev; //oznacza to, że byliśmy ogonem, więc teraz ogonem staje się poprzednik elementu
             //do usunięcia
@@ -152,7 +146,7 @@ public class mList {
         Element p = list._head; //zaczynamy wyszukiwanie od głowy
         while (p.next != null) //przechodzimy dopóki mamy następnik
         {
-            if(p.data == data){
+            if (p.data == data) {
                 break; //jeżeli udało nam się znaleźć element to kończymy wykonywanie pętli
             }
             p = p.next;

@@ -11,14 +11,11 @@ public class sortowanieBabelkowe extends AbstractAlgorithm {
 
     @Override
     public void runAlgorithm(String[] input) {
-
         int[] sortowanaTablica = new int[input.length - 1];
 
         for (int i = 0; i < sortowanaTablica.length; i++) {
             sortowanaTablica[i] = Integer.parseInt(input[i + 1]);
         }
-
-
         for (int i = 0; i < sortowanaTablica.length; i++) {
 
             for (int j = 0; j < sortowanaTablica.length - 1; j++) {
@@ -33,6 +30,5 @@ public class sortowanieBabelkowe extends AbstractAlgorithm {
         for (int i = 0; i < sortowanaTablica.length; i++) {
             System.out.printf("%d ", sortowanaTablica[i]);
         }
-
     }
 }

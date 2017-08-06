@@ -28,12 +28,12 @@ public class ZliczanieLiter extends AbstractAlgorithm {
 
         TreeMap<Character, Integer> liczenieLiter = new TreeMap<>();
 
-        for(int i = 0; i< litery.length(); i++) {
+        for (int i = 0; i < litery.length(); i++) {
             Character przeliterowane = litery.charAt(i);
 
-            if(liczenieLiter.containsKey(przeliterowane)) {
+            if (liczenieLiter.containsKey(przeliterowane)) {
                 int reps = liczenieLiter.get(przeliterowane);
-                liczenieLiter.put(przeliterowane, reps+1);
+                liczenieLiter.put(przeliterowane, reps + 1);
             } else {
                 liczenieLiter.put(przeliterowane, 1);
             }
@@ -42,9 +42,10 @@ public class ZliczanieLiter extends AbstractAlgorithm {
         System.out.println(liczenieLiter);
 
 
-        }
+    }
 
 }
+
 
 
 

@@ -50,7 +50,6 @@ public class ProsteDrzewo extends AbstractAlgorithm {
 
         getSons("A"); //Metoda służy do wyświetlania synów elementu, który został podany jako argument
         getSons("E");
-
     }
 
     private void getLevel(int n) {
@@ -77,7 +76,6 @@ public class ProsteDrzewo extends AbstractAlgorithm {
                 //nasz element, któremu chcemy znaleźć synów
                 break;
         }
-
         try {
             System.out.printf("Lewym synem elementu %s jest: %s\n", _tree[i], _tree[2 * i + 1]);
             //Próbujemy wyświetlić element, który zgodnie ze wzorem ma być lewym synem znalezionego elementu
@@ -96,26 +94,18 @@ public class ProsteDrzewo extends AbstractAlgorithm {
             System.out.printf("Element %s nie posiada prawego syna\n", _tree[i]);
 
         }
-
-
     }
 
-
-
-
-        private int getArraySize(int n){
-            int currentSize = 0;
-            int iterator = 0;
-            while(currentSize < n) {
-                currentSize = currentSize + (int)Math.pow(2d, (double) iterator);
-                iterator++;
-
-            }
-            _level = iterator-1;
-            _height = iterator;
-            return currentSize;
+    private int getArraySize(int n) {
+        int currentSize = 0;
+        int iterator = 0;
+        while (currentSize < n) {
+            currentSize = currentSize + (int) Math.pow(2d, (double) iterator);
+            iterator++;
         }
-
-
+        _level = iterator - 1;
+        _height = iterator;
+        return currentSize;
     }
+}
 

@@ -18,24 +18,22 @@ public class toDelete extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
         ArrayList<Integer> delateReps = new ArrayList<>();
 
-        for (int i = 2; i <= input.length-1; i++) {
+        for (int i = 2; i <= input.length - 1; i++) {
             delateReps.add(Integer.parseInt(input[i]));
         }
         int toDelate = Integer.parseInt(input[1]);
 
 
         for (int i = 0; i < delateReps.size(); i++) {
-            if(delateReps.get(i)==toDelate) {
+            if (delateReps.get(i) == toDelate) {
                 delateReps.remove(i);
-                i=0;
+                i = 0;
             }
         }
-        for (Integer element : delateReps){
+        for (Integer element : delateReps) {
             System.out.printf("%d\n", element);
         }
-
     }
-
 }
 
 
