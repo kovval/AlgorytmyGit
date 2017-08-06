@@ -8,13 +8,13 @@ public class mList {
 
     public void goThroughListForward(mList list) //metoda, która przechodzi po wszystkich elementach listy
     {
-        Element p = list._head; //jako element pierwszy pobieramy sobie głowę listy
+        Element p = list._head; //jako element pierwszy pobieramy sobie głowę listy <-- Wartownik
         while (p.next != null) //przechodzimy po każdym elemencie dopóki następnik wskazuje na inny element
         {
             //wykonujemy jakąś logikę
             p = p.next; //naszym nowym p staje się następnik
         }
-    }
+}
 
     //SEKCJA DODAWAWANIA NOWYCH ELEMENTÓW NA POCZĄTKU / KOŃCU LISTY
     public void addElementAtBeginning(int newElement, mList list) //dodajemy nowy element na początku listy
