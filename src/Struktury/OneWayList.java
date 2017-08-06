@@ -8,6 +8,12 @@ public class mOneWayList {
     Element _iterator;
     int counter;
 
+    public void addElementAtBeginning(int newElement) {
+        OneWayListElement p = new OneWayListElement();
+        p.data = newElement;
+    }
+
+
     public void addAtLast (int newElement, mOneWayList list) {
       Element p = new Element();
         p.data = newElement;
@@ -20,6 +26,6 @@ public class mOneWayList {
 
     }
 
-    public void
+//    public void
 
 }
