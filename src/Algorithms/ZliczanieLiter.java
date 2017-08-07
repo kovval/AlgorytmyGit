@@ -25,7 +25,6 @@ public class ZliczanieLiter extends AbstractAlgorithm {
         }
         System.out.println(litery);
 
-
         TreeMap<Character, Integer> liczenieLiter = new TreeMap<>();
 
         for (int i = 0; i < litery.length(); i++) {
