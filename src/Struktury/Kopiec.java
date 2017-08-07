@@ -57,85 +57,88 @@ public class Kopiec {
 //    k09: zakończ
 
 
-    public int delateRoot() {
-        int root = -1;
-
-        if (_counter-- > 0) {
-
-            root = _data[0];
-            int i = 0;
-            int j = 1;
-            int elementLast = _data[_counter];
-
-            while (j < _counter) {
-                if (j++ < _counter && _data[j++] > _data[j]) {
-                    j++;
-                }
-                if (_data[j] <= elementLast) break;
-                else {
-                    _data[i] = _data[j];
-                    i = j;
-                    j = 2 * j + 1;
-                }
-            }
-            _data[i] = elementLast;
-        }
-        return root;
-    }
-
-//     public int deleteRoot(){
+//    public int delateRoot() {
+//
 //        int root = 0;
-//        int i = 0; //iterator, któy posłuży do przeszukiwania kopca zaczynając od korzenia
+//        if (_counter-- > 0) {
 //
-//
-//        if(_counter-- > 0) //Sprawdzamy czy możemy cokolwiek usunąć jednocześnie zmniejszając licznik
-//        {
 //            root = _data[0];
-//            int lastElement = _data[_counter]; //zapamiętujemy ostatni element kopca
-//            i = 0; //przeszukiwanie drzewa rozpoczynamy od korzenia
-//            int j = 1; //wskazujemy w którym miejscu w tablicy znajduje się lewy syn
+//            int i = 0;
+//            int j = 1;
+//            int elementLast = _data[_counter];
 //
-//            while (j < _counter) //dopóki uda nam się odnaleźć lewego syna idziemy w dół kopca
-//            {
-//                if(j+1 < _counter && _data[j+1] > _data[j]) //szukamy większego syna
-//                {
-//                    j = j+1;
+//            while (j < _counter) {
+//                if (j++ < _counter && _data[j++] > _data[j]) {
+//                    j++;
 //                }
-//                if(lastElement >= _data[j]) //jeśli warunek kopca spełniony, wychodzimy z pętli
+//                if (_data[j] <= elementLast)
 //                    break;
 //                else {
-//                    //Zamiana
-//                    _data[i] = _data[j]; //kopiujemy większego syna do ojca
-//                    i = j; //przechodzimy na pozycję większego syna
-//                    j = 2 * j + 1; //j wskazuje lewego syna
+//                    _data[i] = _data[j];
+//                    i = j;
+//                    j = 2 * j + 1;
 //                }
 //            }
-//
-//            _data[i] = lastElement; //w odpowiednim miejscu umieszczamy ostatni element, aby zachowany był
-//            //warunek kopca
+//            _data[i] = elementLast;
 //        }
 //        return root;
 //    }
 
+     public int deleteRoot(){
+        int root = 0;
+        int i = 0; //iterator, któy posłuży do przeszukiwania kopca zaczynając od korzenia
+
+
+        if(_counter-- > 0) //Sprawdzamy czy możemy cokolwiek usunąć jednocześnie zmniejszając licznik
+        {
+            root = _data[0];
+            int lastElement = _data[_counter]; //zapamiętujemy ostatni element kopca
+            i = 0; //przeszukiwanie drzewa rozpoczynamy od korzenia
+            int j = 1; //wskazujemy w którym miejscu w tablicy znajduje się lewy syn
+
+            while (j < _counter) //dopóki uda nam się odnaleźć lewego syna idziemy w dół kopca
+            {
+                if(j+1 < _counter && _data[j+1] > _data[j]) //szukamy większego syna
+                {
+                    j = j+1;
+                }
+                if(lastElement >= _data[j]) //jeśli warunek kopca spełniony, wychodzimy z pętli
+                    break;
+                else {
+                    //Zamiana
+                    _data[i] = _data[j]; //kopiujemy większego syna do ojca
+                    i = j; //przechodzimy na pozycję większego syna
+                    j = 2 * j + 1; //j wskazuje lewego syna
+                }
+            }
+
+            _data[i] = lastElement; //w odpowiednim miejscu umieszczamy ostatni element, aby zachowany był
+            //warunek kopca
+        }
+        return root;
+    }
 
 
     public void sort() {
-        int size = _counter;
-        int[] sort = new int[_counter];
-        for (int i = _counter; i >= 0; i--) {
-            sort[i] = delateRoot();
+            int size = _counter; //pobieram sobie rozmiar kopca
+            int[] sort = new int[_counter]; //tworzę tablice, która posłuży mi do sortowania
+            for(int i = _counter-1 ; i >= 0; i--){
+                sort[i] = deleteRoot(); //kasuje korzeń i jednocześnie zapisuje sobie jego wartość na ostatnim wolnym
+                //miejscu tablicy
+            }
+            for(int i = 0; i < size; i++){
+                System.out.printf("%d ", sort[i]);
+            }
         }
-    }
 
     public void drukowanieKopca() {
 
         for (int i = 0; i < _counter; i++) {
             System.out.printf("%d ", _data[i]);
-//                for (int j = 0; j < Math.pow(2, i/2); j++) {
-//                    System.out.printf("\n");
-//            }
+            }
+        System.out.printf("\n");
 
         }
 
     }
-}
+
