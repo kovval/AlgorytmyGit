@@ -22,6 +22,9 @@ package Struktury;
 // pobiera rozmiar tablicy
 
 
+import static java.lang.Enum.valueOf;
+import static javafx.scene.input.KeyCode.T;
+
 public class Kopiec {
     int[] _data;
     int _counter;
@@ -42,17 +45,85 @@ public class Kopiec {
         }
         _data[i] = newElement;
     }
+//    k01: Dla i = n, n -1,...,2: wykonuj K02...K08
+//    k02: d[1] <--> d[i]
+//    k03: j<-1; k<-2
+//    k04: Dopóki (k <i) wykonuj k05...k08
+//    k05: jeżeli (k +1 , i) i (d[k+1] > d[k]), to m<- k+1
+//    inaczej m<-k
+//    k06: jeżeli d[m] <= d[j] to wydź z pętli k04 i kontynuuj następny obieg k01
+//    k07: d[j] <--> d[m]
+//    k08: j - m; k <j + j
+//    k09: zakończ
 
-    public void delateRoot() {
-        int i = _counter++;
 
+    public int delateRoot() {
+        int root = -1;
+
+        if (_counter-- > 0) {
+
+            root = _data[0];
+            int i = 0;
+            int j = 1;
+            int elementLast = _data[_counter];
+
+            while (j < _counter) {
+                if (j++ < _counter && _data[j++] > _data[j]) {
+                    j++;
+                }
+                if (_data[j] <= elementLast) break;
+                else {
+                    _data[i] = _data[j];
+                    i = j;
+                    j = 2 * j + 1;
+                }
+            }
+            _data[i] = elementLast;
+        }
+        return root;
     }
+
+//     public int deleteRoot(){
+//        int root = 0;
+//        int i = 0; //iterator, któy posłuży do przeszukiwania kopca zaczynając od korzenia
+//
+//
+//        if(_counter-- > 0) //Sprawdzamy czy możemy cokolwiek usunąć jednocześnie zmniejszając licznik
+//        {
+//            root = _data[0];
+//            int lastElement = _data[_counter]; //zapamiętujemy ostatni element kopca
+//            i = 0; //przeszukiwanie drzewa rozpoczynamy od korzenia
+//            int j = 1; //wskazujemy w którym miejscu w tablicy znajduje się lewy syn
+//
+//            while (j < _counter) //dopóki uda nam się odnaleźć lewego syna idziemy w dół kopca
+//            {
+//                if(j+1 < _counter && _data[j+1] > _data[j]) //szukamy większego syna
+//                {
+//                    j = j+1;
+//                }
+//                if(lastElement >= _data[j]) //jeśli warunek kopca spełniony, wychodzimy z pętli
+//                    break;
+//                else {
+//                    //Zamiana
+//                    _data[i] = _data[j]; //kopiujemy większego syna do ojca
+//                    i = j; //przechodzimy na pozycję większego syna
+//                    j = 2 * j + 1; //j wskazuje lewego syna
+//                }
+//            }
+//
+//            _data[i] = lastElement; //w odpowiednim miejscu umieszczamy ostatni element, aby zachowany był
+//            //warunek kopca
+//        }
+//        return root;
+//    }
+
+
 
     public void sort() {
         int size = _counter;
         int[] sort = new int[_counter];
         for (int i = _counter; i >= 0; i--) {
-//            sort[i] = delateRoot();
+            sort[i] = delateRoot();
         }
     }
 

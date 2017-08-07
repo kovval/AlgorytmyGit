@@ -29,7 +29,6 @@ public class ZliczanieLiter extends AbstractAlgorithm {
 
         for (int i = 0; i < litery.length(); i++) {
             Character przeliterowane = litery.charAt(i);
-
             if (liczenieLiter.containsKey(przeliterowane)) {
                 int reps = liczenieLiter.get(przeliterowane);
                 liczenieLiter.put(przeliterowane, reps + 1);

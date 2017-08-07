@@ -109,6 +109,36 @@ public class mList {
 
     }
 
+//    public void elementToDeletepriv(int elementToDel, mList list) {
+//        Element toDel = list.getElementForward(elementToDel, list);
+//        list.counter--;
+//        if(toDel.prev != null) {
+//            toDel.prev.next = toDel.next;
+//        } else {
+//            list._head = toDel.next;
+//        } if (toDel.next != null) {
+//            toDel.next.prev = toDel.prev;
+//        } else {
+//            list._tail = toDel.prev;
+//        }
+//        toDel = null;
+//    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void deleteElement(int elementToDelete, mList list) {
         Element toDelete = list.getElementForward(elementToDelete, list); //wyszukujemy pierwszy element z wartością
 
