@@ -86,6 +86,8 @@ public class AlgorithmFactory {
                 return new StosPalindrom();
             case "odwrotnanotacjapolskazad":
                 return new OdwrotnaNotacjaPolskaZad();
+            case "nww":
+                return new NWW();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
