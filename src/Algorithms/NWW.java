@@ -16,7 +16,7 @@ public class NWW extends AbstractAlgorithm{
 
         int nWW = (n*k)/Nwd(n, k);
 
-        System.out.printf("NWW dla n %d ", Nwd(n, k));
+        System.out.printf("NWW dla n %d ", nWW);
     }
     private int Nwd(int k, int n) {
         if (k == 0) return n;
