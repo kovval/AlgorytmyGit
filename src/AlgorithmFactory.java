@@ -88,8 +88,11 @@ public class AlgorithmFactory {
                 return new OdwrotnaNotacjaPolskaZad();
             case "nww":
                 return new NWW();
+//                ========================================================= <= nowe kody
             case "dzientygodnia":
                 return new DzienTygodnia();
+            case "bojtockieswietotrojkota":
+                return new BojtockieSwietoTrojkota();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
