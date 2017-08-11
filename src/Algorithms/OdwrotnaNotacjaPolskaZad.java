@@ -10,7 +10,7 @@ public class OdwrotnaNotacjaPolskaZad extends AbstractAlgorithm {
 
     @Override
     public void runAlgorithm(String[] input){
-        String myInput = " a + b  * c =";
+        String myInput = " ( a * b )  * c =";
         String[] myInputArr = myInput.split(" ");
 
         Stack<String> stack = new Stack<>();
