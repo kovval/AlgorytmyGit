@@ -99,6 +99,8 @@ public class AlgorithmFactory {
                 return new  HTMLLovve();
             case "idnumberweryfikacj":
                 return new IDNumberWeryfikacja();
+            case "peselver":
+                return new PESELVER();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
