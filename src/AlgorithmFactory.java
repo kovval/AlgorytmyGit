@@ -101,6 +101,8 @@ public class AlgorithmFactory {
                 return new IDNumberWeryfikacja();
             case "peselver":
                 return new PESELVER();
+            case "ciazowyspecjalista":
+                return new CiazowySpecjalista();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
