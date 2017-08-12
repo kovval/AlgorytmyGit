@@ -17,7 +17,7 @@ public class BojtockieSwietoTrojkota extends AbstractAlgorithm{
 
         int zuzytaKreda = 0;
         for(int i=0;i<numberOfChildren;i++){
-            int a = generatorOdcink.nextInt((200))+11;
+            int a = generatorOdcink.nextInt((200))+11;//losujemy a..b..c
             int b = generatorOdcink.nextInt((200))+11;
             int c = generatorOdcink.nextInt((200))+11;
             if(a + b > c || a + c > b || b+c>a) {

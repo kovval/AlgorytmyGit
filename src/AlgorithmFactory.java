@@ -93,6 +93,12 @@ public class AlgorithmFactory {
                 return new DzienTygodnia();
             case "bojtockieswietotrojkota":
                 return new BojtockieSwietoTrojkota();
+            case "namedayjohnny":
+                return new  NameDayJohnny();
+            case "htmllovve":
+                return new  HTMLLovve();
+            case "idnumberweryfikacj":
+                return new IDNumberWeryfikacja();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");

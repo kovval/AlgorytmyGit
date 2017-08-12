@@ -1,7 +1,7 @@
 package Algorithms;
 /* Działanie programu:
 Ponieważ komentarze w kodzie wybijają mnie z rytmu piszę działanie programu na samej górze:
-Pierw ustawiamy licznik letters na 0będzie nam potrzebny do określenia, czy wypisać z dużej litery czy z małej
+Pierw ustawiamy licznik letters na 0 będzie nam potrzebny do określenia, czy wypisać z dużej litery czy z małej
 następnie nasz wrzucony  tekst skanujemy po jego dlugosci od 1 elementu (1 bo na 0 w tablicy jest nazwa programu)
 tworzymy stringa o nazwie word, który będzie przechowywał słowo do przetworzenia. Działanie programu będzie przetwarzać słowo po słowie
 teraz musimy przeskanowac całe słowo na Chary - znaki tak by można było przelecieć po tablicy charów. Skanując tablice charów po indeksach szukamy tych,

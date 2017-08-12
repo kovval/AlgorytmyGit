@@ -41,10 +41,7 @@ public class Flamaster extends AbstractAlgorithm {
                 }
             }
             System.out.printf("%s ", shorWord);
-
         }
-
-
     }
 }
 
