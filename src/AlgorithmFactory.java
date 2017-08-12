@@ -103,6 +103,9 @@ public class AlgorithmFactory {
                 return new PESELVER();
             case "ciazowyspecjalista":
                 return new CiazowySpecjalista();
+            case "punktywkole":
+                return new PunktyWKole();
+
 
             default:
                 throw new Exception("Nie ma takiego algorytmu!");
