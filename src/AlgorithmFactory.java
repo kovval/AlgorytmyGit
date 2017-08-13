@@ -105,6 +105,18 @@ public class AlgorithmFactory {
                 return new CiazowySpecjalista();
             case "punktywkole":
                 return new PunktyWKole();
+            case "removal":
+                return new Removal();
+            case "snow":
+                return new Snow();
+            case "rownanieliniowe":
+                return new RownanieLiniowe();
+            case "airplane":
+                return new Airplane();
+            case "przedszkolanka":
+                return new Przedszkolanka();
+            case "porownanieliczb":
+                return new PorownanieLiczb();
 
 
             default:
