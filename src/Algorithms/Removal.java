@@ -26,8 +26,8 @@ public class Removal extends AbstractAlgorithm {
                     if(weighPrim < capacitanceLuggage && weighPrim >= luggage[j]) {
                         weighPrim = weighPrim-luggage[j];
                         luggage[j] = 0;
-
                     }
+
                     if(weighPrim >= luggage[j] && luggage[j] != 0) {
                         weighPrim = weighPrim-luggage[j];
                         luggage[j] = 0;
@@ -38,8 +38,7 @@ public class Removal extends AbstractAlgorithm {
                     }
                 }
               }
-
-        System.out.println(counter+" Teraz chyba działa, jako poprawke trzeba dac pierwsza cyfre zmieniona z dlugoscią tablicy");
+        System.out.println(counter+" Działą po dniu męki zrobione troszkę pewnie kodu niepotrzebnego się znajdzie, ale najważniejsze, że work");
 
     }
 }
