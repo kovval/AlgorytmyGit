@@ -117,6 +117,8 @@ public class AlgorithmFactory {
                 return new Przedszkolanka();
             case "porownanieliczb":
                 return new PorownanieLiczb();
+            case "kabalistycznyzapisdaty":
+                return new KabalistycznyZapisDaty();
 
 
             default:
