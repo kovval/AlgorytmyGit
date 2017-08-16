@@ -12,13 +12,13 @@ public class Przedszkolanka extends AbstractAlgorithm {
         int grupaDruga = Integer.parseInt(input[2]);
         int x = grupaPierwsza;
         int y = grupaDruga;
-        while(grupaPierwsza != grupaDruga) {
+        while(grupaPierwsza != grupaDruga) { //NWD
             if( grupaPierwsza > grupaDruga) {
                 grupaPierwsza -= grupaDruga;
             } else {
                 grupaDruga -= grupaPierwsza;
             }
         }
-        System.out.printf("potrzeba by przedszkolanka miała %d cukierasów", (x*y)/grupaPierwsza);
+        System.out.printf("potrzeba by przedszkolanka miała %d cukierasów", (x*y)/grupaPierwsza); //NWW
     }
 }
