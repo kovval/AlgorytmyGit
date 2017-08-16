@@ -119,6 +119,8 @@ public class AlgorithmFactory {
                 return new PorownanieLiczb();
             case "kabalistycznyzapisdaty":
                 return new KabalistycznyZapisDaty();
+            case "pieczatkidzieci":
+                return new PieczatkiDzieci();
 
 
             default:
