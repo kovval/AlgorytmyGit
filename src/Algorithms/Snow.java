@@ -5,6 +5,7 @@ public class Snow extends AbstractAlgorithm{
     public String getName() {
         return "snieg";
     }
+// więcej nad tym było myślenia niż pisania
 
     @Override
     public void runAlgorithm(String[] input) {
@@ -13,14 +14,15 @@ public class Snow extends AbstractAlgorithm{
         int c = Integer.parseInt(input[3]);
         int s = Integer.parseInt(input[4]);
 
-        int primMax = c;
+        int primMax = c;// można by kombinować z szukaniem maxa, a potem dostosowaniem dwóch pozostałych
+                        // ale zadanie mówi jasno, że ostatni krok jest najdłuższy
         int counter = 0;
 
-    while(primMax <= s*100) {
-        if(primMax%a == 0 && primMax%b==0) {
-            counter++;
+    while(primMax <= s*100) { // dopóki droga nie ostanie osiągnięta
+        if(primMax%a == 0 && primMax%b==0) { // szukamy niezerowego zwrotu 
+            counter++;// za każdym razem liczymy, całkowite pokrycie
         }
-        primMax += c;
+        primMax += c;// stawiamy kolejny najdłużsyz krok
     }
         System.out.printf("%d", counter);
 
