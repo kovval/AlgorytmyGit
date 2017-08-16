@@ -19,6 +19,6 @@ public class Przedszkolanka extends AbstractAlgorithm {
                 grupaDruga -= grupaPierwsza;
             }
         }
-        System.out.printf("potrzeba by przedszkolanka miała %d cukierasów", (x*y)/grupaPierwsza); /NWW
+        System.out.printf("potrzeba by przedszkolanka miała %d cukierasów", (x*y)/grupaPierwsza); //NWW
     }
 }
