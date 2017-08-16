@@ -14,7 +14,7 @@ public class DzienTygodnia extends AbstractAlgorithm{
         int n = Integer.parseInt(input[2]);//wczytuje o ile chce przesunąć
         for(int i = 0; i < _tyg.length; i++) {//robie pętle by porównać do którego dnia pasuje podany przezemnie dizeń
             if(_tyg[i].equals(dzien) ) { // porównuje aż znajdzie odpowiedni dzien na tablicy
-                int move = (i+n)%7; // suma dnia tygodnia i przesuniecie przez ilosc elementów w stringu _tyg,
+                int move = (i+n)%7; // suma dnia tygodnia i przesuniecie przez ilosc elementów w stringu _tyg, i jest potrzebne by wwskazać dzien
                 System.out.printf("%s",_tyg[move]);// dzien tygodnia + to co było po modulo 7
             }
         }
