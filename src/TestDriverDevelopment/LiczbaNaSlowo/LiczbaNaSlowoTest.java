@@ -31,7 +31,7 @@ public class LiczbaNaSlowoTest {
     @Test
     public void fiftyfiveReturnpędziesiątpięć() {
         LiczbaNaSlowo testObject = new LiczbaNaSlowo();
-        Assert.assertEquals("piędziesiątpięc", testObject.slowo(55));
+        Assert.assertEquals("piędziesiątpięć", testObject.slowo(55));
     }
 
 

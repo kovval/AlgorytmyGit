@@ -1,5 +1,6 @@
 package TestDriverDevelopment.LiczbaNaSlowo;
 
+
 public class LiczbaNaSlowo {
 private String[] slowaDoDziesieć = {"zero", "jeden", "dwa", "trzy", "cztery" ,
 "pięć", "sześć", "siedem", "osiem","dziewięć", "dziesieć","jedynaście", "dwanaście",
@@ -13,7 +14,7 @@ private String[] dziesiatki = {"", "", "dwadzieścia", "trzydzieści", "czterdzi
 
     public String slowo(int n) {
 
-        if(n >19) return dziesiatki[n%10]+slowo(n-n%10);
+        if(n > 19) return dziesiatki[n%10]+slowaDoDziesieć[n- (10*(n%10))];
         return slowaDoDziesieć[n];
 
 

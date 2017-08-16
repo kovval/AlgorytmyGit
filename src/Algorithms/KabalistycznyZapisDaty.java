@@ -27,37 +27,21 @@ public class KabalistycznyZapisDaty extends AbstractAlgorithm {
         for (int liczbaSlow = 1; liczbaSlow < input.length; liczbaSlow++) {
 
             String slowa = input[liczbaSlow];
-<<<<<<< HEAD
             char[] literyWSlowie = slowa.toUpperCase().toCharArray();
             for (int i = 0; i < literyWSlowie.length; i++) {
                 for (int j = 0; j < _letters.length; j++) {
                     if (literyWSlowie[i] == _letters[j]) {
-                        suma[liczbaSlow - 1] += dataZapis.get(_letters[j]);
-=======
-            char[] literyWSlowie = slowa.toUpperCase().toCharArray();//podnosimy litery do góry i zamieniamy je na chary
-            for(int i = 0; i< literyWSlowie.length; i++) {          // i tak nie udało się zrobić tej kombinacji bez wykorzystania dwóch pętli
-                for(int j = 0; j < _letters.length ; j++) {         //for
-                    if (literyWSlowie[i] == _letters[j]) {          //pierw bierzemy literę, a następnie skanujemy w poszukiwaniu jej odpowiednika
-                        suma += dataZapis.get(_letters[j]);         //następnie sumujemy zapis
->>>>>>> cfc30101f705f63fdca565f8337d6b1a8743fe3b
+                        suma[liczbaSlow -1] += dataZapis.get(_letters[j]);
+
+
                     }
                 }
             }
         }
 
-<<<<<<< HEAD
         for (int i = 0; i < suma.length; i++) {
-            System.out.printf("%s",suma[i]);
+            System.out.printf("%s ",suma[i]);
         }
-=======
 
-        System.out.println(suma); // każde słowo będzie miała swoją oddielną wartość.
-
-
-
-
-
-
->>>>>>> cfc30101f705f63fdca565f8337d6b1a8743fe3b
     }
 }
