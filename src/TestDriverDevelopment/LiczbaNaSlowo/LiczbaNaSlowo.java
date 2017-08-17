@@ -15,7 +15,7 @@ private String[] dziesiatki = {"", "", "dwadzieścia", "trzydzieści", "czterdzi
 //private int[] liczbyDodziesiec = {1 ,2 ,3 ,4 ,5 ,6, 7 ,8 ,9, 10};
 
     public String slowo(int n) {
-        if(n>=100) return setki[n/100]+dziesiatki[(n-(n/100*100))/10]+slowaDoDziesieć[n%10];
+        if(n>=100) return setki[n/100]+dziesiatki[(n-(n/100*100))/10]+slowaDoDziesieć[n%10];//setki n/100 dziesiętne (n%100-n%10)/10) jedności n%10
         if(n > 19) return dziesiatki[n%10]+slowaDoDziesieć[n- (10*(n%10))];
         return slowaDoDziesieć[n];
 
