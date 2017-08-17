@@ -2,6 +2,7 @@ package TestDriverDevelopment.LiczbaNaSlowo;
 
 
 public class LiczbaNaSlowo {
+    private String[] tysiace = {"", "tysiąc", "tysiące", "tysiące", "tysiące", "tysiący", "tysiący", "tysiący", "tysiący", "tysiący", "tysiący"};
 private String[] slowaDoDziesieć = {"", "jeden", "dwa", "trzy", "cztery" ,
 "pięć", "sześć", "siedem", "osiem","dziewięć", "dziesieć","jedynaście", "dwanaście",
 "trzynaście", "czternaście", "pietnaście", "szesnaście", "siedemnaście", "osiemnaście", "dziewiętnaście" };
