@@ -55,6 +55,17 @@ public class LiczbaNaSlowoTest {
         Assert.assertEquals("dziewięćsetdziewiedzieisątdziewięć", testObject.slowo(999));
     }
 
+    @Test
+    public void dwiesciesiedemdziesiatryturnif273() {
+        LiczbaNaSlowo testObject = new LiczbaNaSlowo();
+        Assert.assertEquals("dwieściesiedemdziesiąttrzy", testObject.slowo(273));
+    }
+    @Test
+    public void dwiesciesiedemnasciegiveBack217() {
+        LiczbaNaSlowo testObject = new LiczbaNaSlowo();
+        Assert.assertEquals("dwieściesiedemnaście", testObject.slowo(217));
+    }
+
     }
 
 
