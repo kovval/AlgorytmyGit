@@ -2,7 +2,7 @@ package TestDriverDevelopment.LiczbaNaSlowo;
 
 
 public class LiczbaNaSlowo {
-private String[] slowaDoDziesieć = {"", "jeden", "dwa", "trzy", "cztery" ,
+private String[] slowaDoDziesieć = {"zero", "jeden", "dwa", "trzy", "cztery" ,
 "pięć", "sześć", "siedem", "osiem","dziewięć", "dziesieć","jedynaście", "dwanaście",
 "trzynaście", "czternaście", "pietnaście", "szesnaście", "siedemnaście", "osiemnaście", "dziewiętnaście" };
 
