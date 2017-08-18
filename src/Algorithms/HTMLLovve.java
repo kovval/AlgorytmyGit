@@ -32,6 +32,7 @@ public class HTMLLovve extends AbstractAlgorithm {
                         charCounter++;
                     }
                     System.out.print(">");
+
                 } else {
                     System.out.print(Character.toString(charInHTML[charCounter]));
                     if (charCounter == charInHTML.length - 1) {
