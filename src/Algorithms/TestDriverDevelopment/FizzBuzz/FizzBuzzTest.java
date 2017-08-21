@@ -1,4 +1,4 @@
-package TestDriverDevelopment.FizzBuzz;
+package Algorithms.TestDriverDevelopment.FizzBuzz;
 
 import org.junit.Assert;
 import org.junit.Test;

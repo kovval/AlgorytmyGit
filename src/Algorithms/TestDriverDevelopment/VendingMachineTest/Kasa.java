@@ -1,4 +1,4 @@
-package TestDriverDevelopment.VendingMachineTest;
+package Algorithms.TestDriverDevelopment.VendingMachineTest;
 
 /**
  * Created by RENT on 2017-08-16.

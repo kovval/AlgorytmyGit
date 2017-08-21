@@ -1,4 +1,4 @@
-package TestDriverDevelopment.LiczbaNaSlowo;
+package Algorithms.TestDriverDevelopment.LiczbaNaSlowo;
 
 
 public class LiczbaNaSlowo {
@@ -20,6 +20,11 @@ private String[] dziesiatki = {"", "", "dwadzieścia", "trzydzieści", "czterdzi
 
 
         String word = "";//cały plan poszedł sie..., a chciałem zrobić wszystko w jednej linijce
+        if (n >= 1000) {
+                word += tysiace[n / 1000];
+            n = n / 10;
+        }
+
         if(n>=100) word = setki[n/100];
         n=n%100;
         if(n > 19) {

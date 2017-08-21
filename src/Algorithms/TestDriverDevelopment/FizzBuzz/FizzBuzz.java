@@ -1,4 +1,4 @@
-package TestDriverDevelopment.FizzBuzz;
+package Algorithms.TestDriverDevelopment.FizzBuzz;
 
 /**
  * Created by RENT on 2017-08-10.

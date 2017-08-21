@@ -1,4 +1,4 @@
-package TestDriverDevelopment.BubbleSort;
+package Algorithms.TestDriverDevelopment.BubbleSort;
 
 /**
  * Created by RENT on 2017-08-10.

@@ -1,4 +1,4 @@
-package TestDriverDevelopment.VendingMachineTest;
+package Algorithms.TestDriverDevelopment.VendingMachineTest;
 
 
 public class VendingMachine {

@@ -1,4 +1,4 @@
-package TestDriverDevelopment;
+package Algorithms.TestDriverDevelopment;
 
 /**
  * Created by RENT on 2017-08-10.

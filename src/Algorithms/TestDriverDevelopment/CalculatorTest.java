@@ -1,4 +1,4 @@
-package TestDriverDevelopment;
+package Algorithms.TestDriverDevelopment;
 
 import org.junit.Assert;
 import org.junit.Test;

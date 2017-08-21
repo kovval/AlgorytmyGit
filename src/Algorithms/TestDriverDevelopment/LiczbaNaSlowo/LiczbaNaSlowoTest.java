@@ -1,4 +1,4 @@
-package TestDriverDevelopment.LiczbaNaSlowo;
+package Algorithms.TestDriverDevelopment.LiczbaNaSlowo;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -64,6 +64,11 @@ public class LiczbaNaSlowoTest {
     public void dwiesciesiedemnasciegiveBack217() {
         LiczbaNaSlowo testObject = new LiczbaNaSlowo();
         Assert.assertEquals("dwieściesiedemnaście", testObject.slowo(217));
+    }
+    @Test
+    public void tysiac() {
+        LiczbaNaSlowo testObject = new LiczbaNaSlowo();
+        Assert.assertEquals("tysiącstojeden", testObject.slowo(1101));
     }
 
     }
