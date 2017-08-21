@@ -10,8 +10,15 @@ public class Removal extends AbstractAlgorithm {
 
     @Override
     public void runAlgorithm(String[] input) {
-        int amount = input.length - 2;//podajemy liczbe bagażów na podstawie długości talbicy
+        // pierwsza cyfra to pojemnosc bagazu kolejne cyfry to wagi bagazow ilosc bagazow wynika z podanych bagażów
+        //np. 20 5 5 5 5 5 5 5 5 powinno dać 2
+        int amount = input.length - 2;//podajemyliczbe bagażów na podstawie długości talbicy
         int capacitanceLuggage = Integer.parseInt(input[1]); // pojemność kartonu
+        //tutaj w petli for można by było znaleźć maksymalny ciężar bagazu, zaokrąglić go do pełnej dziesiątki i podać jako pojemność bagażu
+        // ale to wymagałoby przesunięcia wszystkich pozostałych forów o 1 bo straciłbym input od 1
+        //int capacitanceLuggage = 0;
+        //for(int liczbaBagazow = 0; liczbaBagazow <luggage.length; liczbaBagazow++ ) {
+        // if (capacitanceLuggage < luggage[liczbaBagazow]) capacitanceLuggage = luggage[liczbaBagazow];
         int[] luggage = new int[amount]; // tablice pakunków
         int counter = 0;    // zerujemy liczbe pakunków
         for (int i = 0; i < amount; i++) {

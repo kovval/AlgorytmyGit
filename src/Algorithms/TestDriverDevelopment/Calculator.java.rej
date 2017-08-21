@@ -1,0 +1,7 @@
+diff a/src/Algorithms/TestDriverDevelopment/Calculator.java b/src/Algorithms/TestDriverDevelopment/Calculator.java	(rejected hunks)
+@@ -1,4 +0,4 @@
+-package TestDriverDevelopment;
++package Algorithms.TestDriverDevelopment;
+ 
+ /**
+  * Created by RENT on 2017-08-10.
