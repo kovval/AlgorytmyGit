@@ -16,7 +16,6 @@ public class ZmienneITablice extends AbstractAlgorithm {
             tablica[i] = Integer.parseInt(input[i]);
         }
 
-
         for (int i = 0; i < tablica.length; i++) {
             for (int j = 0; j < i; j++) {
                 if ((tablica[i] == tablica[j])) {
