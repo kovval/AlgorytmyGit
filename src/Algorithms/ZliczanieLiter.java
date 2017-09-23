@@ -15,20 +15,22 @@ public class ZliczanieLiter extends AbstractAlgorithm {
     @Override
     public void runAlgorithm(String[] input) {
 
-        StringBuilder litery = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) {
             String word = input[wordsCounter];
 
             for (int i = 0; i < word.length(); i++) {
-                litery.append(word.charAt(i));
+                sb.insert(i, word.charAt(i));
+//                    sb.append(word.charAt(i));
             }
+
         }
-        System.out.println(litery);
+        System.out.println(sb);
 
         TreeMap<Character, Integer> liczenieLiter = new TreeMap<>();
 
-        for (int i = 0; i < litery.length(); i++) {
-            Character przeliterowane = litery.charAt(i);
+        for (int i = 0; i < sb.length(); i++) {
+            Character przeliterowane = sb.charAt(i);
             if (liczenieLiter.containsKey(przeliterowane)) {
                 int reps = liczenieLiter.get(przeliterowane);
                 liczenieLiter.put(przeliterowane, reps + 1);
