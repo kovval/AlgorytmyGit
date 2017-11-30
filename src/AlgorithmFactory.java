@@ -64,8 +64,8 @@ public class AlgorithmFactory {
                 return new mRandom();
             case "drukowanykopiec":
                 return new drukowanyKopiec();
-//            case "szukanielidera" :
-//                return new SzukanieLidera();
+            case "szukanielidera" :
+                return new SzukanieLidera();
 //            case "testowanielisty" :
 //                return new TestowanieListy();
             case "listakolor":
